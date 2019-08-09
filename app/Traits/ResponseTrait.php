@@ -2,6 +2,7 @@
 
 namespace App\Traits;
 
+use App\Constants\Attribute;
 use Exception;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Response;
@@ -54,16 +55,16 @@ trait ResponseTrait
     public function makeResponseArray($success = true, $data = [], $message = '', $code = '')
     {
         $response = [
-            'success' => $success,
-            'message' => $message,
+            Attribute::SUCCESS => $success,
+            Attribute::MESSAGE => $message,
         ];
 
         if (!empty($data)) {
-            $response['data'] = $data;
+            $response[Attribute::DATA] = $data;
         }
 
         if (!empty($code)) {
-            $response['code'] = $code;
+            $response[Attribute::CODE] = $code;
         }
 
         return $response;

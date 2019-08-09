@@ -3,6 +3,7 @@
 
 namespace App\Services;
 
+use App\Constants\Attribute;
 use App\Models\BaseModel;
 use Exception;
 use Illuminate\Pagination\LengthAwarePaginator;
@@ -36,7 +37,7 @@ abstract class Service
             $entity = $this->model;
             if ($id) {
                 $entity = $this->model->find($id);
-                unset($data['id']);
+                unset($data[Attribute::ID]);
             }
             $entity->populate($data);
             $entity->save();
@@ -70,9 +71,9 @@ abstract class Service
         $collect = collect($data);
         /** @var Builder $query */
         $query = $this->queryBuilder
-            ->autoQuery(json_decode($collect->pull('filter')))
-            ->order(json_decode($collect->pull('order')));
-        if ($collect->pull('page')) {
+            ->autoQuery(json_decode($collect->pull(Attribute::FILTER)))
+            ->order(json_decode($collect->pull(Attribute::ORDER)));
+        if ($collect->pull(Attribute::PAGE)) {
             $paginate = $query->paginate();
             $itemsTransformed = self::treateDataAddPk($paginate->getCollection());
             $itemsTransformed = $this->treatePaginateData($itemsTransformed);
@@ -82,9 +83,9 @@ abstract class Service
                 $paginate->perPage(),
                 $paginate->currentPage(),
                 [
-                    'path' => \Request::url(),
-                    'query' => [
-                        'page' => $paginate->currentPage()
+                    Attribute::PATH => \Request::url(),
+                    Attribute::QUERY => [
+                        Attribute::PAGE => $paginate->currentPage()
                     ]
                 ]
             );
@@ -165,16 +166,18 @@ abstract class Service
     /**
      * Recebe o array data do post extrai o objeto filter e retornando como collection
      *
+     * @param array $data
      * @return Collection
      */
     public function getFilter(array $data)
     {
-        return collect(json_decode(collect($data)->pull('filter')));
+        return collect(json_decode(collect($data)->pull(Attribute::FILTER)));
     }
 
     /**
      * Recebe o objeto collection e retorna o mesmo como objeto json
      *
+     * @param Collection $filter
      * @return string
      */
     public function setFilter(Collection $filter)
@@ -185,16 +188,18 @@ abstract class Service
     /**
      * Recebe o array data do post extrai o objeto order e retornando como collection
      *
+     * @param array $data
      * @return Collection
      */
     public function getOrder(array $data)
     {
-        return collect(json_decode(collect($data)->pull('order')));
+        return collect(json_decode(collect($data)->pull(Attribute::ORDER)));
     }
 
     /**
      * Recebe o objeto collection e retorna o mesmo como objeto json
      *
+     * @param Collection $order
      * @return string
      */
     public function setOrder(Collection $order)

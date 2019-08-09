@@ -24,8 +24,8 @@ class CidadeRequest extends Request
     public function rules()
     {
         return [
-            'no_cidade' => Attribute::REQUIRED,
-            'cd_estado'   => Attribute::REQUIRED,
+            Attribute::NO_CIDADE  => Attribute::REQUIRED,
+            Attribute::CD_ESTADO  => Attribute::REQUIRED,
         ];
     }
 
@@ -37,8 +37,8 @@ class CidadeRequest extends Request
     public function attributes()
     {
         return [
-            'no_cidade' => 'Nome da cidade',
-            'cd_estado'   => 'Código de relascionamento com o estado',
+            Attribute::NO_CIDADE  => 'Nome da cidade',
+            Attribute::CD_ESTADO  => 'Código de relascionamento com o estado',
         ];
     }
 }

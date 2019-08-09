@@ -29,36 +29,34 @@ class PontuacaoSeeder extends Seeder
     {
         $data = [
             [
-                'nr_pontuacao' => 1,
-                'ds_pontuacao' => 'Odeio',
+                Attribute::NR_PONTUACAO => 1,
+                Attribute::DS_PONTUACAO => 'Odeio',
                 Attribute::TS_CRIADO => new \DateTime(),
             ],
 
             [
-                'nr_pontuacao' => 2,
-                'ds_pontuacao' => 'Não Gosto',
+                Attribute::NR_PONTUACAO => 2,
+                Attribute::DS_PONTUACAO => 'Não Gosto',
                 Attribute::TS_CRIADO => new \DateTime(),
             ],
 
             [
-                'nr_pontuacao' => 3,
-                'ds_pontuacao' => 'Não gosto e nem desgosto',
+                Attribute::NR_PONTUACAO => 3,
+                Attribute::DS_PONTUACAO => 'Não gosto e nem desgosto',
                 Attribute::TS_CRIADO => new \DateTime(),
             ],
 
             [
-                'nr_pontuacao' => 4,
-                'ds_pontuacao' => 'Gosto',
+                Attribute::NR_PONTUACAO => 4,
+                Attribute::DS_PONTUACAO => 'Gosto',
                 Attribute::TS_CRIADO => new \DateTime(),
             ],
 
             [
-                'nr_pontuacao' => 5,
-                'ds_pontuacao' => 'Amo',
+                Attribute::NR_PONTUACAO => 5,
+                Attribute::DS_PONTUACAO => 'Amo',
                 Attribute::TS_CRIADO => new \DateTime(),
             ],
-
-
         ];
         $this->model->insert($data);
     }

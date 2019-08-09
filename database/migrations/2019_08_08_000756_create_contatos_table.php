@@ -13,47 +13,47 @@ class CreateContatosTable extends Migration
      */
     public function up()
     {
-        Schema::create('tb_contato', function (Blueprint $table) {
+        Schema::create(\App\Constants\Attribute::TB_CONTATO, function (Blueprint $table) {
             $table
                 ->bigIncrements('cd_contato')
                 ->comment('Código chave da tabela PK, Identity');
             $table
                 ->enum('ic_contato', [
-                    'CELULAR',
-                    'COMERCIAL',
-                    'RESIDENCIAL',
-                    'EMAIL'
+                    \App\Constants\Attribute::CELULAR,
+                    \App\Constants\Attribute::COMERCIAL,
+                    \App\Constants\Attribute::RESIDENCIAL,
+                    \App\Constants\Attribute::EMAIL
                 ])
                 ->comment('Tipo do Contato (Comercial, Celular, Residencial ou E-Mail)');
             $table
-                ->string('nr_ddd', 3)
+                ->string(\App\Constants\Attribute::NR_DDD, 3)
                 ->nullable()
                 ->comment('Número do DDD do telefone.');
             $table
-                ->string('nr_telefone', 12)
+                ->string(\App\Constants\Attribute::NR_TELEFONE, 12)
                 ->nullable()
                 ->comment('Número do telefone.');
             $table
-                ->string('ed_email', 150)
+                ->string(\App\Constants\Attribute::ED_EMAIL, 150)
                 ->nullable()
                 ->comment('Endereço de E-mail.');
             $table
-                ->unsignedInteger('cd_pessoa')
+                ->unsignedInteger(\App\Constants\Attribute::CD_PESSOA)
                 ->comment('Código chave estrangeira FK da tabela tb_pessoa');
             $table
-                ->foreign('cd_pessoa')
-                ->references('cd_pessoa')
-                ->on('tb_pessoa')
-                ->onDelete('cascade');
+                ->foreign(\App\Constants\Attribute::CD_PESSOA)
+                ->references(\App\Constants\Attribute::CD_PESSOA)
+                ->on(\App\Constants\Attribute::TB_PESSOA)
+                ->onDelete(\App\Constants\Attribute::CASCADE);
             $table
-                ->timestamp('ts_criado')
+                ->timestamp(\App\Constants\Attribute::TS_CRIADO)
                 ->comment('Data e hora de criação do registro');
             $table
-                ->timestamp('ts_atualizado')
+                ->timestamp(\App\Constants\Attribute::TS_ATUALIZADO)
                 ->nullable()
                 ->comment('Data e hora de atualização do registro');
             $table
-                ->softDeletes('ts_removido')
+                ->softDeletes(\App\Constants\Attribute::TS_REMOVIDO)
                 ->comment('Data e hora de atualização do registro');
         });
     }
@@ -65,6 +65,6 @@ class CreateContatosTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('tb_contato');
+        Schema::dropIfExists(\App\Constants\Attribute::TB_CONTATO);
     }
 }

@@ -2,8 +2,10 @@
 
 namespace App\Models;
 
+use App\Constants\Attribute;
+
 class Pontuacao extends BaseModel
 {
-    protected $table = 'tb_pontuacao';
+    protected $table = Attribute::TB_PONTUACAO;
 
 }

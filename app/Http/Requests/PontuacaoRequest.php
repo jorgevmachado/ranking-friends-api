@@ -24,8 +24,8 @@ class PontuacaoRequest extends Request
     public function rules()
     {
         return [
-            'nr_pontuacao' => Attribute::REQUIRED,
-            'ds_pontuacao' => Attribute::REQUIRED,
+            Attribute::NR_PONTUACAO => Attribute::REQUIRED,
+            Attribute::DS_PONTUACAO => Attribute::REQUIRED,
         ];
     }
 
@@ -37,8 +37,8 @@ class PontuacaoRequest extends Request
     public function attributes()
     {
         return [
-            'nr_pontuacao' => 'Número da pontuação',
-            'ds_pontuacao' => 'Descrição da pontuação',
+            Attribute::NR_PONTUACAO => 'Número da pontuação',
+            Attribute::DS_PONTUACAO => 'Descrição da pontuação',
         ];
     }
 }

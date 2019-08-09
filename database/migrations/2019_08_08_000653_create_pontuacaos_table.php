@@ -13,25 +13,25 @@ class CreatePontuacaosTable extends Migration
      */
     public function up()
     {
-        Schema::create('tb_pontuacao', function (Blueprint $table) {
+        Schema::create(\App\Constants\Attribute::TB_PONTUACAO, function (Blueprint $table) {
             $table
-                ->bigIncrements('cd_pontuacao')
+                ->bigIncrements(\App\Constants\Attribute::CD_PONTUACAO)
                 ->comment('Código chave da tabela PK, Identity');
             $table
-                ->integer('nr_pontuacao')
+                ->integer(\App\Constants\Attribute::NR_PONTUACAO)
                 ->comment('Quantidade de pontos');
             $table
-                ->string('ds_pontuacao', 250)
+                ->string(\App\Constants\Attribute::DS_PONTUACAO, 250)
                 ->comment('Descrição da pontuação');
             $table
-                ->timestamp('ts_criado')
+                ->timestamp(\App\Constants\Attribute::TS_CRIADO)
                 ->comment('Data e hora de criação do registro');
             $table
-                ->timestamp('ts_atualizado')
+                ->timestamp(\App\Constants\Attribute::TS_ATUALIZADO)
                 ->nullable()
                 ->comment('Data e hora de atualização do registro');
             $table
-                ->softDeletes('ts_removido')
+                ->softDeletes(\App\Constants\Attribute::TS_REMOVIDO)
                 ->comment('Data e hora de atualização do registro');
         });
     }
@@ -43,6 +43,6 @@ class CreatePontuacaosTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('tb_pontuacao');
+        Schema::dropIfExists(\App\Constants\Attribute::TB_PONTUACAO);
     }
 }

@@ -4,7 +4,7 @@ namespace App\Http\Requests;
 
 use App\Constants\Attribute;
 
-class PaisRequest extends Request
+class ContatoRequest extends Request
 {
     /**
      * Determine se o usuário está autorizado a fazer essa solicitação.
@@ -24,9 +24,8 @@ class PaisRequest extends Request
     public function rules()
     {
         return [
-            Attribute::NO_PAIS       => Attribute::REQUIRED,
-            Attribute::SG_PAIS       => Attribute::REQUIRED,
-            Attribute::NO_CONTINENTE => Attribute::REQUIRED,
+            Attribute::IC_CONTATO => Attribute::REQUIRED,
+            Attribute::CD_PESSOA => Attribute::REQUIRED,
         ];
     }
 
@@ -38,9 +37,8 @@ class PaisRequest extends Request
     public function attributes()
     {
         return [
-            Attribute::NO_PAIS       => 'Nome do páis',
-            Attribute::SG_PAIS       => 'Sigla do páis',
-            Attribute::NO_CONTINENTE => 'Continente do páis',
+            Attribute::IC_CONTATO => 'Tipo de contato',
+            Attribute::CD_PESSOA  => 'Código de relascionamento com a pessoa',
         ];
     }
 }

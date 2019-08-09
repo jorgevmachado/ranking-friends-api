@@ -2,7 +2,9 @@
 
 namespace App\Models;
 
+use App\Constants\Attribute;
+
 class EstadoCivil extends BaseModel
 {
-    protected $table = 'tb_estado_civil';
+    protected $table = Attribute::TB_ESTADO_CIVIL;
 }

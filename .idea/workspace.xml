@@ -2,7 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b42a21a-c5c0-4dcd-8e11-463496a1c2b0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/ContatoRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Constants/Attribute.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Constants/Attribute.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Constants/Messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Constants/Messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ContatoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ContatoController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/CategoriaRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/CategoriaRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/CidadeRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/CidadeRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/EnderecoRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/EnderecoRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/EstadoRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/EstadoRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/PaisRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/PaisRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/PontuacaoRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/PontuacaoRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/BaseModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/BaseModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Categoria.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Categoria.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Cidade.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Cidade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Contato.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Contato.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Endereco.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Endereco.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Estado.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Estado.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/EstadoCivil.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/EstadoCivil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Pais.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Pais.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Pessoa.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Pessoa.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Pontuacao.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Pontuacao.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Services/CidadeService.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/CidadeService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Services/ContatoService.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/ContatoService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Services/EnderecoService.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/EnderecoService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Services/EstadoService.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/EstadoService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Services/PessoaService.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/PessoaService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Services/Service.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/Service.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Traits/ResponseTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Traits/ResponseTrait.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_08_08_000352_create_pais_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_08_08_000352_create_pais_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_08_08_000429_create_estados_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_08_08_000429_create_estados_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_08_08_000435_create_cidades_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_08_08_000435_create_cidades_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_08_08_000511_create_estado_civils_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_08_08_000511_create_estado_civils_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_08_08_000527_create_categorias_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_08_08_000527_create_categorias_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_08_08_000653_create_pontuacaos_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_08_08_000653_create_pontuacaos_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_08_08_000736_create_pessoas_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_08_08_000736_create_pessoas_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_08_08_000750_create_enderecos_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_08_08_000750_create_enderecos_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_08_08_000756_create_contatos_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_08_08_000756_create_contatos_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/CategoriaSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/CategoriaSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/CidadeSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/CidadeSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/ContatoSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/ContatoSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/EnderecoSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/EnderecoSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/EstadoCivilSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/EstadoCivilSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/EstadoSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/EstadoSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/PaisSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/PaisSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/PessoaSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/PessoaSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/PontuacaoSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/PontuacaoSeeder.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,7 +55,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
@@ -67,97 +112,21 @@
         <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
         <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="ranking@172.23.0.2" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="ranking: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="tb_contato: table" type="69fad909:PgImplModel$LocalTable" />
+      </path>
     </expand>
     <select />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/database/seeds/ContatoSeeder.php">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="640">
-                    <caret line="47" column="33" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
-                    <folding>
-                      <element signature="e#7#35#0#PHP" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/database/seeds/CategoriaSeeder.php">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="300">
-                    <caret line="22" column="30" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="22" selection-end-column="30" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/database/migrations/2019_08_08_000527_create_categorias_table.php">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="60">
-                    <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/database/migrations/2019_08_08_000653_create_pontuacaos_table.php">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="60">
-                    <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/database/migrations/2019_08_08_000756_create_contatos_table.php">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="195">
-                    <caret line="24" column="26" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="26" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/database/migrations/2019_08_08_000750_create_enderecos_table.php">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="60">
-                    <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.env">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="18" lean-forward="true" selection-end-line="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.env.example">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="44" selection-start-line="44" selection-end-line="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -165,12 +134,63 @@
       <find>estado_civils</find>
       <find>pontuacaos</find>
       <find>pessoas</find>
+      <find>$phone</find>
+      <find>'ed_email'</find>
+      <find>'RESIDENCIAL'</find>
+      <find>'EMAIL'</find>
+      <find>&quot;Criado com sucesso.&quot;</find>
+      <find>'O número de telefone deve ter 9 digitos.'</find>
+      <find>'order'</find>
+      <find>'filter'</find>
+      <find>'page'</find>
+      <find>'cd_pessoa'</find>
+      <find>'query'</find>
+      <find>'ds_categoria'</find>
+      <find>'nr_telefone'</find>
+      <find>'no_estado_civil'</find>
+      <find>'no_sobrenome'</find>
+      <find>'dt_nascimento'</find>
+      <find>'nr_pontuacao'</find>
+      <find>'ds_pontuacao'</find>
+      <find>'cd_pontuacao'</find>
+      <find>'tb_pontuacao'</find>
+      <find>'cascade'</find>
+      <find>'cd_categoria'</find>
+      <find>'cd_estado_civil'</find>
+      <find>'tb_contato'</find>
+      <find>'tb_pessoa'</find>
+      <find>'tb_endereco'</find>
     </findStrings>
     <replaceStrings>
       <replace>tb_cidade</replace>
       <replace>cd_estado_civil</replace>
       <replace>tb_pontuacao</replace>
       <replace>tb_pessoa</replace>
+      <replace>$result</replace>
+      <replace>Attribute::ED_EMAIL</replace>
+      <replace>Attribute::RESIDENCIAL</replace>
+      <replace>Attribute::EMAIL</replace>
+      <replace>Attribute::ORDER</replace>
+      <replace>Attribute::FILTER</replace>
+      <replace>Attribute::PAGE</replace>
+      <replace>Attribute::CD_PESSOA</replace>
+      <replace>Attribute::QUERY</replace>
+      <replace>Attribute::DS_CATEGORIA</replace>
+      <replace>Attribute::NR_TELEFONE</replace>
+      <replace>Attribute::NO_ESTADO_CIVIL</replace>
+      <replace>Attribute::NO_SOBRENOME</replace>
+      <replace>Attribute::DT_NASCIMENTO</replace>
+      <replace>Attribute::CD_CATEGORIA</replace>
+      <replace>Attribute::NR_PONTUACAO</replace>
+      <replace>Attribute::DS_PONTUACAO</replace>
+      <replace>Attribute::CD_PONTUACAO</replace>
+      <replace>\App\Constants\Attribute::TB_PONTUACAO</replace>
+      <replace>\App\Constants\Attribute::CASCADE</replace>
+      <replace>\App\Constants\Attribute::CD_CATEGORIA</replace>
+      <replace>\App\Constants\Attribute::CD_ESTADO_CIVIL</replace>
+      <replace>\App\Constants\Attribute::TB_CONTATO</replace>
+      <replace>\App\Constants\Attribute::TB_PESSOA</replace>
+      <replace>\App\Constants\Attribute::TB_ENDERECO</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -179,21 +199,37 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Controller.php" />
-        <option value="$PROJECT_DIR$/routes/api.php" />
-        <option value="$PROJECT_DIR$/app/Services/CategoriaService.php" />
-        <option value="$PROJECT_DIR$/app/Services/CidadeService.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/CategoriaController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/EnderecoController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/EstadoCivilController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/PontuacaoController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/PessoaController.php" />
+        <option value="$PROJECT_DIR$/.env.example" />
         <option value="$PROJECT_DIR$/app/Services/ContatoService.php" />
-        <option value="$PROJECT_DIR$/app/Services/EnderecoService.php" />
-        <option value="$PROJECT_DIR$/app/Services/EstadoCivilService.php" />
-        <option value="$PROJECT_DIR$/app/Services/EstadoService.php" />
-        <option value="$PROJECT_DIR$/app/Services/PaisService.php" />
+        <option value="$PROJECT_DIR$/app/Constants/Messages.php" />
         <option value="$PROJECT_DIR$/app/Services/PessoaService.php" />
-        <option value="$PROJECT_DIR$/app/Services/PontuacaoService.php" />
-        <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/docker-compose.yml" />
-        <option value="$PROJECT_DIR$/app/Models/Categoria.php" />
+        <option value="$PROJECT_DIR$/app/Services/EstadoService.php" />
+        <option value="$PROJECT_DIR$/app/Services/EnderecoService.php" />
+        <option value="$PROJECT_DIR$/app/Services/CidadeService.php" />
+        <option value="$PROJECT_DIR$/app/Services/Service.php" />
+        <option value="$PROJECT_DIR$/app/Http/Requests/ContatoRequest.php" />
+        <option value="$PROJECT_DIR$/app/Http/Requests/CidadeRequest.php" />
+        <option value="$PROJECT_DIR$/app/Http/Requests/EnderecoRequest.php" />
+        <option value="$PROJECT_DIR$/app/Http/Requests/EstadoRequest.php" />
+        <option value="$PROJECT_DIR$/app/Http/Requests/PaisRequest.php" />
+        <option value="$PROJECT_DIR$/app/Http/Requests/PontuacaoRequest.php" />
+        <option value="$PROJECT_DIR$/app/Http/Requests/CategoriaRequest.php" />
+        <option value="$PROJECT_DIR$/database/seeds/CategoriaSeeder.php" />
+        <option value="$PROJECT_DIR$/database/seeds/CidadeSeeder.php" />
+        <option value="$PROJECT_DIR$/database/seeds/ContatoSeeder.php" />
+        <option value="$PROJECT_DIR$/database/seeds/EnderecoSeeder.php" />
+        <option value="$PROJECT_DIR$/database/seeds/EstadoCivilSeeder.php" />
+        <option value="$PROJECT_DIR$/database/seeds/EstadoSeeder.php" />
+        <option value="$PROJECT_DIR$/database/seeds/PaisSeeder.php" />
+        <option value="$PROJECT_DIR$/database/seeds/PessoaSeeder.php" />
+        <option value="$PROJECT_DIR$/database/seeds/PontuacaoSeeder.php" />
         <option value="$PROJECT_DIR$/app/Models/Cidade.php" />
+        <option value="$PROJECT_DIR$/app/Models/Categoria.php" />
         <option value="$PROJECT_DIR$/app/Models/Contato.php" />
         <option value="$PROJECT_DIR$/app/Models/Endereco.php" />
         <option value="$PROJECT_DIR$/app/Models/Estado.php" />
@@ -201,35 +237,19 @@
         <option value="$PROJECT_DIR$/app/Models/Pais.php" />
         <option value="$PROJECT_DIR$/app/Models/Pessoa.php" />
         <option value="$PROJECT_DIR$/app/Models/Pontuacao.php" />
-        <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_08_08_000756_create_contatos_table.php" />
-        <option value="$PROJECT_DIR$/database/seeds/ContatoSeeder.php" />
-        <option value="$PROJECT_DIR$/app/Http/Requests/Request.php" />
-        <option value="$PROJECT_DIR$/app/Constants/Messages.php" />
-        <option value="$PROJECT_DIR$/app/Constants/Attribute.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/PaisController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Requests/PaisRequest.php" />
-        <option value="$PROJECT_DIR$/resources/lang/pt-BR/auth.php" />
-        <option value="$PROJECT_DIR$/resources/lang/pt-BR/datatables.php" />
-        <option value="$PROJECT_DIR$/resources/lang/pt-BR/pagination.php" />
-        <option value="$PROJECT_DIR$/resources/lang/pt-BR/passwords.php" />
-        <option value="$PROJECT_DIR$/resources/lang/pt-BR/responses.php" />
-        <option value="$PROJECT_DIR$/resources/lang/pt-BR/validation.php" />
-        <option value="$PROJECT_DIR$/config/app.php" />
-        <option value="$PROJECT_DIR$/app/Http/Requests/EstadoRequest.php" />
-        <option value="$PROJECT_DIR$/app/Http/Requests/CidadeRequest.php" />
-        <option value="$PROJECT_DIR$/app/Http/Requests/CategoriaRequest.php" />
-        <option value="$PROJECT_DIR$/app/Http/Requests/PontuacaoRequest.php" />
-        <option value="$PROJECT_DIR$/app/Http/Requests/EnderecoRequest.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/EstadoController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/CidadeController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/CategoriaController.php" />
+        <option value="$PROJECT_DIR$/app/Traits/ResponseTrait.php" />
+        <option value="$PROJECT_DIR$/app/Models/BaseModel.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ContatoController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/EnderecoController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/EstadoCivilController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/PontuacaoController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/PessoaController.php" />
-        <option value="$PROJECT_DIR$/.env.example" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_08_08_000352_create_pais_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_08_08_000435_create_cidades_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_08_08_000429_create_estados_table.php" />
+        <option value="$PROJECT_DIR$/app/Constants/Attribute.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_08_08_000511_create_estado_civils_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_08_08_000527_create_categorias_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_08_08_000653_create_pontuacaos_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_08_08_000736_create_pessoas_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_08_08_000756_create_contatos_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_08_08_000750_create_enderecos_table.php" />
       </list>
     </option>
   </component>
@@ -330,7 +350,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -338,10 +357,21 @@
               <item name="ranking-friends-api" type="b2602c69:ProjectViewProjectNode" />
               <item name="ranking-friends-api" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ranking-friends-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ranking-friends-api" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ranking-friends-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ranking-friends-api" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -392,25 +422,19 @@
       <option name="presentableId" value="Default" />
       <updated>1565222336873</updated>
       <workItem from="1565222338009" duration="10433000" />
+      <workItem from="1565299952915" duration="14573000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10433000" />
+    <option name="totallyTimeSpent" value="25006000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2560" y="27" width="1440" height="873" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.5121951" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23529412" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.47354138" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Console" weight="0.32882273" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -418,281 +442,97 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" weight="0.32998565" />
+      <window_info anchor="bottom" id="Database Console" order="7" weight="0.32882273" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.47218454" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32998565" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+    <entry file="file://$PROJECT_DIR$/app/Services/CidadeService.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Categoria.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Cidade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Contato.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Endereco.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Estado.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/EstadoCivil.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Pais.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Pessoa.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Pontuacao.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="33" lean-forward="true" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://d5bbff5b-ce60-44a8-bfe1-e780a659712b/database/ranking/schema/public/table/tb_pessoa">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="1e25470b-9f72-453a-80bb-a7568ad1fc08">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d5bbff5b-ce60-44a8-bfe1-e780a659712b/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/ContatoSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="47" column="33" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
+        <state relative-caret-position="270">
+          <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
           <folding>
-            <element signature="e#7#35#0#PHP" expanded="true" />
+            <element signature="e#34#62#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="das://d5bbff5b-ce60-44a8-bfe1-e780a659712b/database/ranking/schema/public/table/tb_contato">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="1e25470b-9f72-453a-80bb-a7568ad1fc08">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_08_08_000352_create_pais_table.php">
+    <entry file="file://$PROJECT_DIR$/app/Services/ContatoService.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Constants/Messages.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="80" lean-forward="true" selection-start-line="13" selection-start-column="80" selection-end-line="13" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Requests/Request.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        <state relative-caret-position="285">
+          <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
           <folding>
-            <element signature="e#37#64#0#PHP" expanded="true" />
+            <element signature="e#34#62#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Constants/Attribute.php">
+    <entry file="file://$PROJECT_DIR$/app/Services/EnderecoService.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        <state relative-caret-position="135">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding>
+            <element signature="e#34#62#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/lang/pt-BR/auth.php">
+    <entry file="file://$PROJECT_DIR$/app/Services/EstadoCivilService.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+        <state relative-caret-position="120">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/lang/pt-BR/File passwords.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/lang/pt-BR/datatables.php">
+    <entry file="file://$PROJECT_DIR$/app/Services/EstadoService.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="2" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
+        <state relative-caret-position="285">
+          <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+          <folding>
+            <element signature="e#34#62#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/lang/pt-BR/pagination.php">
+    <entry file="file://$PROJECT_DIR$/app/Services/PaisService.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+        <state relative-caret-position="120">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/lang/pt-BR/passwords.php">
+    <entry file="file://$PROJECT_DIR$/app/Services/PessoaService.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+        <state relative-caret-position="255">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="e#34#62#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/lang/pt-BR/responses.php">
+    <entry file="file://$PROJECT_DIR$/app/Services/PontuacaoService.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/lang/pt-BR/validation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="657">
-          <caret line="120" column="2" selection-start-line="120" selection-start-column="2" selection-end-line="120" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="86" column="33" lean-forward="true" selection-start-line="86" selection-start-column="33" selection-end-line="86" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/CidadeSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Requests/CidadeRequest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="68" selection-start-line="40" selection-start-column="68" selection-end-line="40" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/CategoriaSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="22" column="30" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="22" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_08_08_000527_create_categorias_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Requests/CategoriaRequest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_08_08_000653_create_pontuacaos_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Requests/PaisRequest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="34" column="6" lean-forward="true" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Requests/EstadoRequest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="66" lean-forward="true" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Requests/EnderecoRequest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="642">
-          <caret line="48" column="68" selection-start-line="48" selection-start-column="68" selection-end-line="48" selection-end-column="68" />
+        <state relative-caret-position="120">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CidadeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="5" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="37" selection-end-column="5" />
+        <state relative-caret-position="225">
+          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
           <folding>
             <element signature="e#40#67#0#PHP" expanded="true" />
           </folding>
@@ -700,85 +540,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CategoriaController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/EnderecoController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/EstadoCivilController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/EstadoController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="5" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="37" selection-end-column="5" />
-          <folding>
-            <element signature="e#40#67#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PaisController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="5" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="37" selection-end-column="5" />
-          <folding>
-            <element signature="e#40#67#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PontuacaoController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="5" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="37" selection-end-column="5" />
-          <folding>
-            <element signature="e#40#67#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PessoaController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Requests/PontuacaoRequest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="40" column="53" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_08_08_000750_create_enderecos_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_08_08_000756_create_contatos_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="24" column="26" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ContatoController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
@@ -788,17 +549,305 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
+    <entry file="file://$PROJECT_DIR$/app/Http/Requests/PontuacaoRequest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="18" lean-forward="true" selection-end-line="44" />
+        <state relative-caret-position="395">
+          <caret line="29" column="74" selection-start-line="29" selection-start-column="74" selection-end-line="29" selection-end-column="74" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env.example">
+    <entry file="file://$PROJECT_DIR$/app/Http/Requests/PaisRequest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        <state relative-caret-position="277">
+          <caret line="23" column="27" lean-forward="true" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Requests/EstadoRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="30" column="111" selection-start-line="30" selection-start-column="111" selection-end-line="30" selection-end-column="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Requests/EnderecoRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="23" column="27" lean-forward="true" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Requests/ContatoRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="19" column="67" lean-forward="true" selection-start-line="19" selection-start-column="67" selection-end-line="19" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Requests/CidadeRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Requests/CategoriaRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="26" column="19" lean-forward="true" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/CategoriaSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="23" column="6" lean-forward="true" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/CidadeSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/ContatoSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="57" column="58" lean-forward="true" selection-start-line="57" selection-start-column="58" selection-end-line="57" selection-end-column="58" />
+          <folding>
+            <element signature="e#7#35#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/EnderecoSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="24" column="62" lean-forward="true" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/EstadoCivilSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/EstadoSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/PaisSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/PessoaSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/PontuacaoSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="58" column="14" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Categoria.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Cidade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Contato.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Endereco.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Estado.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/EstadoCivil.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Pais.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Pontuacao.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Pessoa.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Traits/ResponseTrait.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="63" column="9" lean-forward="true" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
+          <folding>
+            <element signature="e#30#58#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Services/Service.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1895">
+          <caret line="43" column="27" lean-forward="true" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
+          <folding>
+            <element signature="e#33#61#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/BaseModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2325">
+          <caret line="155" column="6" lean-forward="true" selection-start-line="155" selection-start-column="6" selection-end-line="155" selection-end-column="6" />
+          <folding>
+            <element signature="e#30#58#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ContatoController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Constants/Attribute.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_08_08_000756_create_contatos_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="45" column="54" lean-forward="true" selection-start-line="45" selection-start-column="54" selection-end-line="45" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_08_08_000736_create_pessoas_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="670">
+          <caret line="74" column="5" lean-forward="true" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_08_08_000653_create_pontuacaos_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_08_08_000527_create_categorias_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="44" column="26" lean-forward="true" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_08_08_000511_create_estado_civils_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="18" column="50" lean-forward="true" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_08_08_000435_create_cidades_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="29" column="53" lean-forward="true" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_08_08_000429_create_estados_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="25" column="18" lean-forward="true" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_08_08_000352_create_pais_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="27" column="43" lean-forward="true" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_08_08_000750_create_enderecos_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="36" column="53" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="15">
+            <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

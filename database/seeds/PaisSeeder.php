@@ -29,9 +29,9 @@ class PaisSeeder extends Seeder
     {
         $data = [
             [
-                'no_pais'                   => 'Brasil',
-                'sg_pais'                   => 'BR',
-                'no_continente'             => 'América',
+                Attribute::NO_PAIS          => 'Brasil',
+                Attribute::SG_PAIS          => 'BR',
+                Attribute::NO_CONTINENTE    => 'América',
                 Attribute::TS_CRIADO        => new \DateTime(),
             ]
         ];

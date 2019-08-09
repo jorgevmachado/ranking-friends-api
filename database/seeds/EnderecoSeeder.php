@@ -29,14 +29,14 @@ class EnderecoSeeder extends Seeder
     {
         $data = [
             [
-                'nr_cep'                 => '70847010',
-                'no_bairro'              => 'Asa Norte',
-                'no_rua'                 => 'Quadra SQN 406',
-                'nr_numero'              => '304',
-                'ds_complemento'         => 'Bloco A',
-                'ds_referencia'          => '',
-                'cd_cidade'              => 1,
-                'cd_pessoa'              => 1,
+                Attribute::NR_CEP                 => '70847010',
+                Attribute::NO_BAIRRO              => 'Asa Norte',
+                Attribute::NO_RUA                 => 'Quadra SQN 406',
+                Attribute::NR_NUMERO              => '304',
+                Attribute::DS_COMPLEMENTO         => 'Bloco A',
+                Attribute::DS_REFERENCIA          => '',
+                Attribute::CD_CIDADE              => 1,
+                Attribute::CD_PESSOA              => 1,
                 Attribute::TS_CRIADO     => new \DateTime(),
             ]
         ];

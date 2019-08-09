@@ -24,8 +24,8 @@ class CategoriaRequest extends Request
     public function rules()
     {
         return [
-            'no_categoria' => Attribute::REQUIRED,
-            'ds_categoria'   => '',
+            Attribute::NO_CATEGORIA => Attribute::REQUIRED,
+            Attribute::DS_CATEGORIA   => '',
         ];
     }
 
@@ -37,8 +37,8 @@ class CategoriaRequest extends Request
     public function attributes()
     {
         return [
-            'no_categoria' => 'Nome da categoria',
-            'ds_categoria' => 'Descrição da categoria',
+            Attribute::NO_CATEGORIA => 'Nome da categoria',
+            Attribute::DS_CATEGORIA => 'Descrição da categoria',
         ];
     }
 }

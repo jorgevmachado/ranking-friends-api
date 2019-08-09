@@ -28,10 +28,10 @@ class EstadoSeeder extends Seeder
     {
         $data = [
             [
-                'no_estado'                 => 'Distrito Federal',
-                'sg_estado'                 => 'DF',
-                'cd_pais'                   => 1,
-                Attribute::TS_CRIADO        => new \DateTime(),
+                Attribute::NO_ESTADO      => 'Distrito Federal',
+                Attribute::SG_ESTADO      => 'DF',
+                Attribute::CD_PAIS        => 1,
+                Attribute::TS_CRIADO      => new \DateTime(),
             ]
         ];
 

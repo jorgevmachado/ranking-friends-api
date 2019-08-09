@@ -24,12 +24,12 @@ class EnderecoRequest extends Request
     public function rules()
     {
         return [
-            'nr_cep' => Attribute::REQUIRED,
-            'no_bairro' => Attribute::REQUIRED,
-            'no_rua' => Attribute::REQUIRED,
-            'nr_numero' => Attribute::REQUIRED,
-            'cd_cidade' => Attribute::REQUIRED,
-            'cd_pessoa'   => Attribute::REQUIRED,
+            Attribute::NR_CEP    => Attribute::REQUIRED,
+            Attribute::NO_BAIRRO => Attribute::REQUIRED,
+            Attribute::NO_RUA    => Attribute::REQUIRED,
+            Attribute::NR_NUMERO => Attribute::REQUIRED,
+            Attribute::CD_CIDADE => Attribute::REQUIRED,
+            Attribute::CD_PESSOA => Attribute::REQUIRED,
         ];
     }
 
@@ -41,12 +41,12 @@ class EnderecoRequest extends Request
     public function attributes()
     {
         return [
-            'nr_cep' => 'Código de endereçamento postal',
-            'no_bairro' => 'Nome do Bairro',
-            'no_rua' => 'Nome da Rua',
-            'nr_numero' => 'Número',
-            'cd_cidade' => 'Código de relascionamento com a cídade',
-            'cd_pessoa'   => 'Código de relascionamento com a pessoa',
+            Attribute::NR_CEP    => 'Código de endereçamento postal',
+            Attribute::NO_BAIRRO => 'Nome do Bairro',
+            Attribute::NO_RUA    => 'Nome da Rua',
+            Attribute::NR_NUMERO => 'Número',
+            Attribute::CD_CIDADE => 'Código de relascionamento com a cídade',
+            Attribute::CD_PESSOA => 'Código de relascionamento com a pessoa',
         ];
     }
 }

@@ -28,8 +28,8 @@ class CidadeSeeder extends Seeder
     {
         $data = [
             [
-                'no_cidade'                 => 'Brasilia',
-                'cd_estado'                 => 1,
+                Attribute::NO_CIDADE        => 'Brasilia',
+                Attribute::CD_ESTADO        => 1,
                 Attribute::TS_CRIADO        => new \DateTime(),
             ]
         ];

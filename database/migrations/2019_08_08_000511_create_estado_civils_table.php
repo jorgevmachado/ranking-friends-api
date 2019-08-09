@@ -13,22 +13,22 @@ class CreateEstadoCivilsTable extends Migration
      */
     public function up()
     {
-        Schema::create('tb_estado_civil', function (Blueprint $table) {
+        Schema::create(\App\Constants\Attribute::TB_ESTADO_CIVIL, function (Blueprint $table) {
             $table
-                ->bigIncrements('cd_estado_civil')
+                ->bigIncrements(\App\Constants\Attribute::CD_ESTADO_CIVIL)
                 ->comment('Código chave da tabela PK, Identity');
             $table
-                ->string('no_estado_civil',250)
+                ->string(\App\Constants\Attribute::NO_ESTADO_CIVIL,250)
                 ->comment('Nome do estado civil');
             $table
-                ->timestamp('ts_criado')
+                ->timestamp(\App\Constants\Attribute::TS_CRIADO)
                 ->comment('Data e hora de criação do registro');
             $table
-                ->timestamp('ts_atualizado')
+                ->timestamp(\App\Constants\Attribute::TS_ATUALIZADO)
                 ->nullable()
                 ->comment('Data e hora de atualização do registro');
             $table
-                ->softDeletes('ts_removido')
+                ->softDeletes(\App\Constants\Attribute::TS_REMOVIDO)
                 ->comment('Data e hora de atualização do registro');
         });
     }
@@ -40,6 +40,6 @@ class CreateEstadoCivilsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('tb_estado_civil');
+        Schema::dropIfExists(\App\Constants\Attribute::TB_ESTADO_CIVIL);
     }
 }

@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use App\Constants\Attribute;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 
@@ -12,21 +13,21 @@ use Illuminate\Database\Eloquent\Model;
       *
       * @var string
       */
-     const CREATED_AT = 'ts_criado';
+     const CREATED_AT = Attribute::TS_CRIADO;
 
      /**
       * O Nome da coluna "updated at".
       *
       * @var string
       */
-     const UPDATED_AT = 'ts_atualizado';
+     const UPDATED_AT = Attribute::TS_ATUALIZADO;
 
      /**
       * O Nome da coluna "deleted at".
       *
       * @var string
       */
-     const DELETED_AT = 'ts_removido';
+     const DELETED_AT = Attribute::TS_REMOVIDO;
 
      /**
       * Campo para verificação do uso de appends
@@ -59,8 +60,8 @@ use Illuminate\Database\Eloquent\Model;
       */
      protected function changeKeyName()
      {
-         if ($this->primaryKey === 'id') {
-             $this->primaryKey = str_replace('tb', 'cd', $this->table);
+         if ($this->primaryKey === Attribute::ID) {
+             $this->primaryKey = str_replace(Attribute::TB, Attribute::CD, $this->table);
          }
      }
 
@@ -126,7 +127,7 @@ use Illuminate\Database\Eloquent\Model;
      public function scopeLike($query, $param)
      {
          collect($param)->each(function ($value, $key) use ($query) {
-             $query->where(\DB::raw("CAST($key AS TEXT)"), 'like', "%{$value}%");
+             $query->where(\DB::raw("CAST($key AS TEXT)"), Attribute::LIKE, "%{$value}%");
          });
          return $query;
      }
@@ -150,7 +151,7 @@ use Illuminate\Database\Eloquent\Model;
       */
      public function scopeLatest($query)
      {
-         $query->orderBy('ts_criado', 'desc');
+         $query->orderBy(Attribute::TS_CRIADO, Attribute::DESC);
          return $query;
      }
 
@@ -166,7 +167,7 @@ use Illuminate\Database\Eloquent\Model;
                  if (strpos($key, 'ds_') === 0 || strpos($key, 'no_') === 0) {
                      $query->where(
                          DB::raw("UPPER($key)"),
-                         'like',
+                         Attribute::LIKE,
                          DB::raw("UPPER('%{$value}%')")
                      );
                  } else {

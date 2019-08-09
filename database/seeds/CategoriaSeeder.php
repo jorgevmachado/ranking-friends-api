@@ -29,28 +29,28 @@ class CategoriaSeeder extends Seeder
     {
         $data = [
           [
-              'no_categoria' => 'Amigos',
-              'ds_categoria' => 'Amigos que conheci na vida.',
+              Attribute::NO_CATEGORIA => 'Amigos',
+              Attribute::DS_CATEGORIA => 'Amigos que conheci na vida.',
               Attribute::TS_CRIADO => new \DateTime(),
           ],
           [
-              'no_categoria' => 'Familiares',
-              'ds_categoria' => 'Meus Familiares.',
+              Attribute::NO_CATEGORIA => 'Familiares',
+              Attribute::DS_CATEGORIA => 'Meus Familiares.',
               Attribute::TS_CRIADO => new \DateTime(),
           ],
           [
-              'no_categoria' => 'Colegas de Trabalho',
-              'ds_categoria' => 'Colegas que conheci no trabalho.',
+              Attribute::NO_CATEGORIA => 'Colegas de Trabalho',
+              Attribute::DS_CATEGORIA => 'Colegas que conheci no trabalho.',
               Attribute::TS_CRIADO => new \DateTime(),
           ],
           [
-              'no_categoria' => 'Colegas de Faculdade',
-              'ds_categoria' => 'Colegas que conheci na faculdade.',
+              Attribute::NO_CATEGORIA => 'Colegas de Faculdade',
+              Attribute::DS_CATEGORIA => 'Colegas que conheci na faculdade.',
               Attribute::TS_CRIADO => new \DateTime(),
           ],
           [
-              'no_categoria' => 'Colegas de Escola',
-              'ds_categoria' => 'Colegas que conheci na escola.',
+              Attribute::NO_CATEGORIA => 'Colegas de Escola',
+              Attribute::DS_CATEGORIA => 'Colegas que conheci na escola.',
                Attribute::TS_CRIADO => new \DateTime(),
           ],
         ];

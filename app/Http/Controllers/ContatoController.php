@@ -3,8 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Constants\Messages;
+use App\Http\Requests\ContatoRequest;
 use App\Services\ContatoService;
-use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 
 class ContatoController extends Controller
@@ -18,7 +18,7 @@ class ContatoController extends Controller
         $this->service = $service;
     }
 
-    public function store(Request $request)
+    public function store(ContatoRequest $request)
     {
         return $this->sendResponse(
             $this->service->save($request->all()),
@@ -27,7 +27,7 @@ class ContatoController extends Controller
         );
     }
 
-    public function update($id, Request $request)
+    public function update($id, ContatoRequest $request)
     {
         return $this->sendResponse(
             $this->service->save($request->all(), $id),

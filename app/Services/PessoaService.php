@@ -4,6 +4,7 @@
 namespace App\Services;
 
 
+use App\Constants\Attribute;
 use App\Models\Pessoa;
 
 class PessoaService extends Service
@@ -16,6 +17,7 @@ class PessoaService extends Service
     public function __construct(Pessoa $model)
     {
         $this->model = $model;
+        $this->queryBuilder = $this->model->with([Attribute::CATEGORIA, Attribute::ESTADO_CIVIL, Attribute::PONTUACAO]);
         parent::__construct();
     }
 }

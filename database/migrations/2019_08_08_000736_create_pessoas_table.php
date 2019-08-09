@@ -13,55 +13,55 @@ class CreatePessoasTable extends Migration
      */
     public function up()
     {
-        Schema::create('tb_pessoa', function (Blueprint $table) {
+        Schema::create(\App\Constants\Attribute::TB_PESSOA, function (Blueprint $table) {
             $table
-                ->bigIncrements('cd_pessoa')
+                ->bigIncrements(\App\Constants\Attribute::CD_PESSOA)
                 ->comment('Código chave da tabela PK, Identity');
             $table
-                ->string('no_nome',150)
+                ->string(\App\Constants\Attribute::NO_NOME,150)
                 ->comment('Primeiro nome da pessoa.');
             $table
-                ->string('no_sobrenome',150)
+                ->string(\App\Constants\Attribute::NO_SOBRENOME,150)
                 ->comment('Sobrenome da pessoa.');
             $table
-                ->date('dt_nascimento')
+                ->date(\App\Constants\Attribute::DT_NASCIMENTO)
                 ->comment('Data de nascimento da pessoa.');
             $table
-                ->enum('ic_sexo', ['M', 'F'])
+                ->enum(\App\Constants\Attribute::IC_SEXO, ['M', 'F'])
                 ->comment('Sexo da pessoa.');
             $table
-                ->unsignedInteger('cd_estado_civil')
+                ->unsignedInteger(\App\Constants\Attribute::CD_ESTADO_CIVIL)
                 ->comment('Código chave estrangeira FK da tabela tb_estado_civil');
             $table
-                ->foreign('cd_estado_civil')
-                ->references('cd_estado_civil')
+                ->foreign(\App\Constants\Attribute::CD_ESTADO_CIVIL)
+                ->references(\App\Constants\Attribute::CD_ESTADO_CIVIL)
                 ->on('tb_estado_civil')
-                ->onDelete('cascade');
+                ->onDelete(\App\Constants\Attribute::CASCADE);
             $table
-                ->unsignedInteger('cd_categoria')
+                ->unsignedInteger(\App\Constants\Attribute::CD_CATEGORIA)
                 ->comment('Código chave estrangeira FK da tabela tb_categoria');
             $table
-                ->foreign('cd_categoria')
-                ->references('cd_categoria')
-                ->on('tb_categoria')
-                ->onDelete('cascade');
+                ->foreign(\App\Constants\Attribute::CD_CATEGORIA)
+                ->references(\App\Constants\Attribute::CD_CATEGORIA)
+                ->on(\App\Constants\Attribute::TB_CATEGORIA)
+                ->onDelete(\App\Constants\Attribute::CASCADE);
             $table
-                ->unsignedInteger('cd_pontuacao')
+                ->unsignedInteger(\App\Constants\Attribute::CD_PONTUACAO)
                 ->comment('Código chave estrangeira FK da tabela tb_pontuacao');
             $table
-                ->foreign('cd_pontuacao')
-                ->references('cd_pontuacao')
-                ->on('tb_pontuacao')
-                ->onDelete('cascade');
+                ->foreign(\App\Constants\Attribute::CD_PONTUACAO)
+                ->references(\App\Constants\Attribute::CD_PONTUACAO)
+                ->on(\App\Constants\Attribute::TB_PONTUACAO)
+                ->onDelete(\App\Constants\Attribute::CASCADE);
             $table
-                ->timestamp('ts_criado')
+                ->timestamp(\App\Constants\Attribute::TS_CRIADO)
                 ->comment('Data e hora de criação do registro');
             $table
-                ->timestamp('ts_atualizado')
+                ->timestamp(\App\Constants\Attribute::TS_ATUALIZADO)
                 ->nullable()
                 ->comment('Data e hora de atualização do registro');
             $table
-                ->softDeletes('ts_removido')
+                ->softDeletes(\App\Constants\Attribute::TS_REMOVIDO)
                 ->comment('Data e hora de atualização do registro');
         });
     }
@@ -73,6 +73,6 @@ class CreatePessoasTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('tb_pessoa');
+        Schema::dropIfExists(\App\Constants\Attribute::TB_PESSOA);
     }
 }

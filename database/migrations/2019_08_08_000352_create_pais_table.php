@@ -13,28 +13,28 @@ class CreatePaisTable extends Migration
      */
     public function up()
     {
-        Schema::create('tb_pais', function (Blueprint $table) {
+        Schema::create(\App\Constants\Attribute::TB_PAIS, function (Blueprint $table) {
             $table
-                ->bigIncrements('cd_pais')
+                ->bigIncrements(\App\Constants\Attribute::CD_PAIS)
                 ->comment('Código chave da tabela PK, Identity');
             $table
-                ->string('no_pais',250)
+                ->string(\App\Constants\Attribute::NO_PAIS,250)
                 ->comment('Nome do pais');
             $table
-                ->string('no_continente',250)
+                ->string(\App\Constants\Attribute::NO_CONTINENTE,250)
                 ->comment('Nome do continente');
             $table
-                ->string('sg_pais',3)
+                ->string(\App\Constants\Attribute::SG_PAIS,3)
                 ->comment('Sigla do pais');
             $table
-                ->timestamp('ts_criado')
+                ->timestamp(\App\Constants\Attribute::TS_CRIADO)
                 ->comment('Data e hora de criação do registro');
             $table
-                ->timestamp('ts_atualizado')
+                ->timestamp(\App\Constants\Attribute::TS_ATUALIZADO)
                 ->nullable()
                 ->comment('Data e hora de atualização do registro');
             $table
-                ->softDeletes('ts_removido')
+                ->softDeletes(\App\Constants\Attribute::TS_REMOVIDO)
                 ->comment('Data e hora de atualização do registro');
         });
     }
@@ -46,6 +46,6 @@ class CreatePaisTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('tb_pais');
+        Schema::dropIfExists(\App\Constants\Attribute::TB_PAIS);
     }
 }

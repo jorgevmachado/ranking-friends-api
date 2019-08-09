@@ -28,23 +28,23 @@ class EstadoCivilSeeder extends Seeder
     {
         $data = [
             [
-                'no_estado_civil'        => 'Solteiro(a)',
+                Attribute::NO_ESTADO_CIVIL        => 'Solteiro(a)',
                 Attribute::TS_CRIADO     => new \DateTime(),
             ],
             [
-                'no_estado_civil'        => 'Casado(a)',
+                Attribute::NO_ESTADO_CIVIL        => 'Casado(a)',
                 Attribute::TS_CRIADO     => new \DateTime(),
             ],
             [
-                'no_estado_civil'        => 'Divorciado(a)',
+                Attribute::NO_ESTADO_CIVIL        => 'Divorciado(a)',
                 Attribute::TS_CRIADO     => new \DateTime(),
             ],
             [
-                'no_estado_civil'        => 'Viúvo(a)',
+                Attribute::NO_ESTADO_CIVIL        => 'Viúvo(a)',
                 Attribute::TS_CRIADO     => new \DateTime(),
             ],
             [
-                'no_estado_civil'        => 'Separado(a)(a)',
+                Attribute::NO_ESTADO_CIVIL        => 'Separado(a)(a)',
                 Attribute::TS_CRIADO     => new \DateTime(),
             ],
         ];

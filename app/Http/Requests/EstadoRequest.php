@@ -24,9 +24,9 @@ class EstadoRequest extends Request
     public function rules()
     {
         return [
-            'no_estado' => Attribute::REQUIRED,
-            'sg_estado' => Attribute::REQUIRED,
-            'cd_pais'   => Attribute::REQUIRED,
+            Attribute::NO_ESTADO => Attribute::REQUIRED,
+            Attribute::SG_ESTADO => Attribute::REQUIRED,
+            Attribute::CD_PAIS   => Attribute::REQUIRED,
         ];
     }
 
@@ -38,9 +38,9 @@ class EstadoRequest extends Request
     public function attributes()
     {
         return [
-            'no_estado' => 'Nome do estado',
-            'sg_estado' => 'Sigla do estado',
-            'cd_pais'   => 'Código de relascionamento com o páis',
+            Attribute::NO_ESTADO => 'Nome do estado',
+            Attribute::SG_ESTADO => 'Sigla do estado',
+            Attribute::CD_PAIS   => 'Código de relascionamento com o páis',
         ];
     }
 }
