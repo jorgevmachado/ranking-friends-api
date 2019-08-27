@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b42a21a-c5c0-4dcd-8e11-463496a1c2b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/entrypoint/local-db.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/entrypoint/local.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/sh/color.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/sh/porcentage.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local-db.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.local" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ranking-friends-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ranking-friends-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/BaseModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/BaseModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Services/CidadeService.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/CidadeService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Services/EstadoService.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/EstadoService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -250,21 +242,16 @@
       <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2560" />
-    <option name="y" value="27" />
-    <option name="width" value="1440" />
-    <option name="height" value="873" />
-  </component>
   <component name="ProjectId" id="1Q0UYY0nUVaFR5hjOkgT0ojQ3Ih" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../SIPES/sipes-api" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
@@ -308,8 +295,17 @@
       <updated>1565222336873</updated>
       <workItem from="1565222338009" duration="10433000" />
       <workItem from="1565299952915" duration="14573000" />
-      <workItem from="1566907055244" duration="4084000" />
+      <workItem from="1566907055244" duration="4375000" />
+      <workItem from="1566912126973" duration="3268000" />
     </task>
+    <task id="LOCAL-00001" summary="Alteração de docker">
+      <created>1566911412890</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1566911412890</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,10 +316,16 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Alteração de docker" />
+    <option name="LAST_COMMIT_MESSAGE" value="Alteração de docker" />
   </component>
 </project>

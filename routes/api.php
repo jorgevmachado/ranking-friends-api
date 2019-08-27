@@ -29,7 +29,6 @@ Route::prefix('estado-civil')->group(function (){
     Route::get('{id}', 'EstadoCivilController@show');
 });
 
-
 Route::resource('pessoa',  'PessoaController');
 
 Route::resource('endereco', 'EnderecoController');
