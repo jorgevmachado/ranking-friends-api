@@ -17,7 +17,7 @@ services:
       - .:/var/www/
     environment:
       - APP_ENV=local
-    entrypoint: ["/bin/sh", "/var/www/docker/entrypoint/local.sh"]
+    entrypoint: ["/bin/sh", "/var/www/docker/entrypoint/local-db.sh"]
     command: php artisan serve --host 0.0.0.0 --port 80
     ports:
       - 80:80
