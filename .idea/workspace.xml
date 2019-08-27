@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b42a21a-c5c0-4dcd-8e11-463496a1c2b0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Services/CidadeService.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/CidadeService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Services/EstadoService.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/EstadoService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insomnia_2019-08-27.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -296,7 +292,7 @@
       <workItem from="1565222338009" duration="10433000" />
       <workItem from="1565299952915" duration="14573000" />
       <workItem from="1566907055244" duration="4375000" />
-      <workItem from="1566912126973" duration="3268000" />
+      <workItem from="1566912126973" duration="3728000" />
     </task>
     <task id="LOCAL-00001" summary="Alteração de docker">
       <created>1566911412890</created>
@@ -305,7 +301,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566911412890</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Criação de Filtros">
+      <created>1566915435685</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1566915435685</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,6 +329,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Alteração de docker" />
-    <option name="LAST_COMMIT_MESSAGE" value="Alteração de docker" />
+    <MESSAGE value="Criação de Filtros" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criação de Filtros" />
   </component>
 </project>
