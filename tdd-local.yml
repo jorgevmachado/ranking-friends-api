@@ -1,0 +1,14 @@
+version: '3.5'
+services:
+  api:
+    container_name: ranking-friends-tdd
+    image: engesoftwarebr/laravel-oracle
+    working_dir: /var/www
+    volumes:
+      - .:/var/www/
+    environment:
+      - APP_ENV=testing
+    entrypoint: [ "/bin/sh" , "/var/www/docker/entrypoint/tdd-local.sh" ]
+    # command: ./test.sh
+    tty: true
+    restart: on-failure

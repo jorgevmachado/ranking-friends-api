@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b42a21a-c5c0-4dcd-8e11-463496a1c2b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Insomnia_2019-08-27.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env.testing" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/entrypoint/tdd-local.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tdd-local.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Unit/TestCase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/CreatesApplication.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/TestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/TestCase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -247,7 +258,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../SIPES/sipes-api" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
@@ -255,10 +266,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/tests/Unit" />
+      <recent name="$PROJECT_DIR$/tests/Feature" />
       <recent name="$PROJECT_DIR$/docker/entrypoint" />
       <recent name="$PROJECT_DIR$/app/Http/Requests" />
-      <recent name="$PROJECT_DIR$/app/Constants" />
-      <recent name="$PROJECT_DIR$/app/Models" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -292,7 +303,8 @@
       <workItem from="1565222338009" duration="10433000" />
       <workItem from="1565299952915" duration="14573000" />
       <workItem from="1566907055244" duration="4375000" />
-      <workItem from="1566912126973" duration="3728000" />
+      <workItem from="1566912126973" duration="3762000" />
+      <workItem from="1566923631658" duration="1720000" />
     </task>
     <task id="LOCAL-00001" summary="Alteração de docker">
       <created>1566911412890</created>
@@ -308,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566915435685</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Insonia">
+      <created>1566915886479</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1566915886479</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,6 +349,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Alteração de docker" />
     <MESSAGE value="Criação de Filtros" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criação de Filtros" />
+    <MESSAGE value="Insonia" />
+    <option name="LAST_COMMIT_MESSAGE" value="Insonia" />
   </component>
 </project>

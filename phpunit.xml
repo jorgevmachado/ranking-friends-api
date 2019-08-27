@@ -9,12 +9,13 @@
          processIsolation="false"
          stopOnFailure="false">
     <testsuites>
-        <testsuite name="Unit">
-            <directory suffix="Test.php">./tests/Unit</directory>
-        </testsuite>
-
         <testsuite name="Feature">
             <directory suffix="Test.php">./tests/Feature</directory>
+        </testsuite>
+        <testsuite name="Unit">
+            <directory suffix="Test.php">./tests/Unit</directory>
+            <exclude>./app/Http</exclude>
+            <exclude>./app/Console</exclude>
         </testsuite>
     </testsuites>
     <filter>
@@ -29,5 +30,10 @@
         <server name="MAIL_DRIVER" value="array"/>
         <server name="QUEUE_CONNECTION" value="sync"/>
         <server name="SESSION_DRIVER" value="array"/>
+        <ini name="memory_limit" value="2048M"/>
     </php>
+    <logging>
+        <log type="coverage-html" target="./coverage/html" lowUpperBound="35" highLowerBound="70"/>
+        <log type="coverage-clover" target="./coverage/clover.xml"/>
+    </logging>
 </phpunit>

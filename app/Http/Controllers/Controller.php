@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Constants\Messages;
+use App\Services\Service;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller as BaseController;
 use Illuminate\Foundation\Validation\ValidatesRequests;
@@ -12,8 +13,9 @@ use App\Traits\ResponseTrait;
 
 class Controller extends BaseController
 {
-    use AuthorizesRequests, ResponseTrait, ValidatesRequests;
+    use AuthorizesRequests, ValidatesRequests, ResponseTrait;
 
+    /** @var Service $service */
     public $service;
 
     public function index(Request $request)
