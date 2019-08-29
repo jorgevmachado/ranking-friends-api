@@ -2,18 +2,119 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b42a21a-c5c0-4dcd-8e11-463496a1c2b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.env.testing" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/entrypoint/tdd-local.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tdd-local.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Unit/TestCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insomnia_2019-08-29.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/.css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/.css/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/.css/nv.d3.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/.css/octicons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/.css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/.icons/file-code.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/.icons/file-directory.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/.js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/.js/d3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/.js/file.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/.js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/.js/nv.d3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/.js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Console/Kernel.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Console/dashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Console/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Constants/Attribute.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Constants/Messages.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Constants/dashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Constants/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Exceptions/Handler.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Exceptions/dashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Exceptions/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Controllers/Auth/ForgotPasswordController.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Controllers/Auth/LoginController.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Controllers/Auth/RegisterController.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Controllers/Auth/ResetPasswordController.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Controllers/Auth/dashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Controllers/Auth/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Controllers/CategoriaController.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Controllers/CidadeController.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Controllers/ContatoController.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Controllers/Controller.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Controllers/EnderecoController.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Controllers/EstadoCivilController.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Controllers/EstadoController.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Controllers/PaisController.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Controllers/PessoaController.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Controllers/PontuacaoController.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Controllers/dashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Controllers/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Kernel.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Middleware/Authenticate.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Middleware/CheckForMaintenanceMode.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Middleware/EncryptCookies.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Middleware/RedirectIfAuthenticated.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Middleware/TrimStrings.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Middleware/TrustProxies.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Middleware/VerifyCsrfToken.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Middleware/dashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Middleware/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Requests/CategoriaRequest.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Requests/CidadeRequest.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Requests/ContatoRequest.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Requests/EnderecoRequest.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Requests/EstadoRequest.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Requests/PaisRequest.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Requests/PontuacaoRequest.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Requests/Request.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Requests/dashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Requests/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Http/dashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Http/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Models/BaseModel.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Models/Categoria.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Models/Cidade.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Models/Contato.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Models/Endereco.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Models/Estado.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Models/EstadoCivil.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Models/Pais.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Models/Pessoa.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Models/Pontuacao.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Models/dashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Models/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Providers/AppServiceProvider.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Providers/AuthServiceProvider.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Providers/BroadcastServiceProvider.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Providers/EventServiceProvider.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Providers/RouteServiceProvider.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Providers/dashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Providers/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Services/CategoriaService.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Services/CidadeService.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Services/ContatoService.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Services/EnderecoService.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Services/EstadoCivilService.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Services/EstadoService.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Services/PaisService.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Services/PessoaService.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Services/PontuacaoService.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Services/Service.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Services/dashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Services/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Traits/ResponseTrait.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Traits/dashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/Traits/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/User.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/dashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/phpunit.coverage.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/phpunit.report.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/CategoriaControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/CidadeControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/ContatoControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/EstadoControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/PaisControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/PontuacaoControllerTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/CreatesApplication.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/TestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/TestCase.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Services/ContatoService.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/ContatoService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,83 +179,8 @@
         <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
         <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="ranking@172.23.0.2" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="ranking: database" type="162271b6:PgImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="tb_contato: table" type="69fad909:PgImplModel$LocalTable" />
-      </path>
     </expand>
     <select />
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>cidades</find>
-      <find>estado_civils</find>
-      <find>pontuacaos</find>
-      <find>pessoas</find>
-      <find>$phone</find>
-      <find>'ed_email'</find>
-      <find>'RESIDENCIAL'</find>
-      <find>'EMAIL'</find>
-      <find>&quot;Criado com sucesso.&quot;</find>
-      <find>'O número de telefone deve ter 9 digitos.'</find>
-      <find>'order'</find>
-      <find>'filter'</find>
-      <find>'page'</find>
-      <find>'cd_pessoa'</find>
-      <find>'query'</find>
-      <find>'ds_categoria'</find>
-      <find>'nr_telefone'</find>
-      <find>'no_estado_civil'</find>
-      <find>'no_sobrenome'</find>
-      <find>'dt_nascimento'</find>
-      <find>'nr_pontuacao'</find>
-      <find>'ds_pontuacao'</find>
-      <find>'cd_pontuacao'</find>
-      <find>'tb_pontuacao'</find>
-      <find>'cascade'</find>
-      <find>'cd_categoria'</find>
-      <find>'cd_estado_civil'</find>
-      <find>'tb_contato'</find>
-      <find>'tb_pessoa'</find>
-      <find>'tb_endereco'</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>tb_cidade</replace>
-      <replace>cd_estado_civil</replace>
-      <replace>tb_pontuacao</replace>
-      <replace>tb_pessoa</replace>
-      <replace>$result</replace>
-      <replace>Attribute::ED_EMAIL</replace>
-      <replace>Attribute::RESIDENCIAL</replace>
-      <replace>Attribute::EMAIL</replace>
-      <replace>Attribute::ORDER</replace>
-      <replace>Attribute::FILTER</replace>
-      <replace>Attribute::PAGE</replace>
-      <replace>Attribute::CD_PESSOA</replace>
-      <replace>Attribute::QUERY</replace>
-      <replace>Attribute::DS_CATEGORIA</replace>
-      <replace>Attribute::NR_TELEFONE</replace>
-      <replace>Attribute::NO_ESTADO_CIVIL</replace>
-      <replace>Attribute::NO_SOBRENOME</replace>
-      <replace>Attribute::DT_NASCIMENTO</replace>
-      <replace>Attribute::CD_CATEGORIA</replace>
-      <replace>Attribute::NR_PONTUACAO</replace>
-      <replace>Attribute::DS_PONTUACAO</replace>
-      <replace>Attribute::CD_PONTUACAO</replace>
-      <replace>\App\Constants\Attribute::TB_PONTUACAO</replace>
-      <replace>\App\Constants\Attribute::CASCADE</replace>
-      <replace>\App\Constants\Attribute::CD_CATEGORIA</replace>
-      <replace>\App\Constants\Attribute::CD_ESTADO_CIVIL</replace>
-      <replace>\App\Constants\Attribute::TB_CONTATO</replace>
-      <replace>\App\Constants\Attribute::TB_PESSOA</replace>
-      <replace>\App\Constants\Attribute::TB_ENDERECO</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -258,16 +284,16 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tests/Feature" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests/Feature" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/tests/Unit" />
-      <recent name="$PROJECT_DIR$/tests/Feature" />
       <recent name="$PROJECT_DIR$/docker/entrypoint" />
       <recent name="$PROJECT_DIR$/app/Http/Requests" />
     </key>
@@ -290,6 +316,16 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -304,7 +340,8 @@
       <workItem from="1565299952915" duration="14573000" />
       <workItem from="1566907055244" duration="4375000" />
       <workItem from="1566912126973" duration="3762000" />
-      <workItem from="1566923631658" duration="1720000" />
+      <workItem from="1566923631658" duration="2130000" />
+      <workItem from="1567102415652" duration="5652000" />
     </task>
     <task id="LOCAL-00001" summary="Alteração de docker">
       <created>1566911412890</created>
@@ -327,7 +364,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566915886479</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Ajustando os Testes">
+      <created>1566925585379</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1566925585379</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,6 +380,31 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State>
@@ -345,11 +414,17 @@
         </entry>
       </map>
     </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Alteração de docker" />
     <MESSAGE value="Criação de Filtros" />
     <MESSAGE value="Insonia" />
-    <option name="LAST_COMMIT_MESSAGE" value="Insonia" />
+    <MESSAGE value="Ajustando os Testes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajustando os Testes" />
   </component>
 </project>

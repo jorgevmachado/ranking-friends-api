@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="50" assertions="71" errors="0" failures="5" skipped="0" time="2.909675">
+    <testsuite name="Feature" tests="49" assertions="70" errors="0" failures="5" skipped="0" time="2.885427">
+      <testsuite name="Tests\Feature\Http\Controller\PontuacaoControllerTest" file="tests/Feature/CategoriaControllerTest.php" tests="7" assertions="10" errors="0" failures="0" skipped="0" time="0.534823">
+        <testcase name="testGetPontuacao" class="Tests\Feature\Http\Controller\PontuacaoControllerTest" classname="Tests.Feature.Http.Controller.PontuacaoControllerTest" file="tests/Feature/CategoriaControllerTest.php" line="9" assertions="1" time="0.071167"/>
+        <testcase name="testPaginatePontuacaoFilterEmpty" class="Tests\Feature\Http\Controller\PontuacaoControllerTest" classname="Tests.Feature.Http.Controller.PontuacaoControllerTest" file="tests/Feature/CategoriaControllerTest.php" line="14" assertions="1" time="0.013427"/>
+        <testcase name="testPaginatePontuacaoFilter" class="Tests\Feature\Http\Controller\PontuacaoControllerTest" classname="Tests.Feature.Http.Controller.PontuacaoControllerTest" file="tests/Feature/CategoriaControllerTest.php" line="28" assertions="1" time="0.012530"/>
+        <testcase name="testShowPontuacao" class="Tests\Feature\Http\Controller\PontuacaoControllerTest" classname="Tests.Feature.Http.Controller.PontuacaoControllerTest" file="tests/Feature/CategoriaControllerTest.php" line="49" assertions="1" time="0.012398"/>
+        <testcase name="testPostPontuacao" class="Tests\Feature\Http\Controller\PontuacaoControllerTest" classname="Tests.Feature.Http.Controller.PontuacaoControllerTest" file="tests/Feature/CategoriaControllerTest.php" line="55" assertions="2" time="0.128602"/>
+        <testcase name="testPutPontuacao" class="Tests\Feature\Http\Controller\PontuacaoControllerTest" classname="Tests.Feature.Http.Controller.PontuacaoControllerTest" file="tests/Feature/CategoriaControllerTest.php" line="71" assertions="2" time="0.135680"/>
+        <testcase name="testDeletePontuacao" class="Tests\Feature\Http\Controller\PontuacaoControllerTest" classname="Tests.Feature.Http.Controller.PontuacaoControllerTest" file="tests/Feature/CategoriaControllerTest.php" line="87" assertions="2" time="0.161019"/>
+      </testsuite>
+      <testsuite name="Tests\Feature\Http\Controller\CidadeControllerTest" file="tests/Feature/CidadeControllerTest.php" tests="7" assertions="10" errors="0" failures="0" skipped="0" time="0.561641">
+        <testcase name="testGetCidade" class="Tests\Feature\Http\Controller\CidadeControllerTest" classname="Tests.Feature.Http.Controller.CidadeControllerTest" file="tests/Feature/CidadeControllerTest.php" line="9" assertions="1" time="0.020592"/>
+        <testcase name="testPaginateCidadeFilterEmpty" class="Tests\Feature\Http\Controller\CidadeControllerTest" classname="Tests.Feature.Http.Controller.CidadeControllerTest" file="tests/Feature/CidadeControllerTest.php" line="14" assertions="1" time="0.014705"/>
+        <testcase name="testPaginateCidadeFilter" class="Tests\Feature\Http\Controller\CidadeControllerTest" classname="Tests.Feature.Http.Controller.CidadeControllerTest" file="tests/Feature/CidadeControllerTest.php" line="28" assertions="1" time="0.013810"/>
+        <testcase name="testShowCidade" class="Tests\Feature\Http\Controller\CidadeControllerTest" classname="Tests.Feature.Http.Controller.CidadeControllerTest" file="tests/Feature/CidadeControllerTest.php" line="55" assertions="1" time="0.012872"/>
+        <testcase name="testPostCidade" class="Tests\Feature\Http\Controller\CidadeControllerTest" classname="Tests.Feature.Http.Controller.CidadeControllerTest" file="tests/Feature/CidadeControllerTest.php" line="61" assertions="2" time="0.154799"/>
+        <testcase name="testPutCidade" class="Tests\Feature\Http\Controller\CidadeControllerTest" classname="Tests.Feature.Http.Controller.CidadeControllerTest" file="tests/Feature/CidadeControllerTest.php" line="77" assertions="2" time="0.172890"/>
+        <testcase name="testDeleteCidade" class="Tests\Feature\Http\Controller\CidadeControllerTest" classname="Tests.Feature.Http.Controller.CidadeControllerTest" file="tests/Feature/CidadeControllerTest.php" line="93" assertions="2" time="0.171973"/>
+      </testsuite>
+      <testsuite name="Tests\Feature\Http\Controller\ContatoControllerTest" file="tests/Feature/ContatoControllerTest.php" tests="15" assertions="21" errors="0" failures="5" skipped="0" time="0.203032">
+        <testcase name="testGetContato" class="Tests\Feature\Http\Controller\ContatoControllerTest" classname="Tests.Feature.Http.Controller.ContatoControllerTest" file="tests/Feature/ContatoControllerTest.php" line="9" assertions="1" time="0.028657"/>
+        <testcase name="testPaginateContatoFilterEmpty" class="Tests\Feature\Http\Controller\ContatoControllerTest" classname="Tests.Feature.Http.Controller.ContatoControllerTest" file="tests/Feature/ContatoControllerTest.php" line="15" assertions="1" time="0.013253"/>
+        <testcase name="testPaginateContatoFilter" class="Tests\Feature\Http\Controller\ContatoControllerTest" classname="Tests.Feature.Http.Controller.ContatoControllerTest" file="tests/Feature/ContatoControllerTest.php" line="30" assertions="1" time="0.012958"/>
+        <testcase name="testShowContato" class="Tests\Feature\Http\Controller\ContatoControllerTest" classname="Tests.Feature.Http.Controller.ContatoControllerTest" file="tests/Feature/ContatoControllerTest.php" line="61" assertions="1" time="0.015249"/>
+        <testcase name="testPostContatoErrorDDDObrigatorio" class="Tests\Feature\Http\Controller\ContatoControllerTest" classname="Tests.Feature.Http.Controller.ContatoControllerTest" file="tests/Feature/ContatoControllerTest.php" line="67" assertions="2" time="0.011657"/>
+        <testcase name="testPostContatoErrorDDD3Digitos" class="Tests\Feature\Http\Controller\ContatoControllerTest" classname="Tests.Feature.Http.Controller.ContatoControllerTest" file="tests/Feature/ContatoControllerTest.php" line="84" assertions="2" time="0.011516"/>
+        <testcase name="testPostContatoErrorNumeroTelefoneObrigatorio" class="Tests\Feature\Http\Controller\ContatoControllerTest" classname="Tests.Feature.Http.Controller.ContatoControllerTest" file="tests/Feature/ContatoControllerTest.php" line="102" assertions="2" time="0.011515"/>
+        <testcase name="testPostContatoTipoTelefoneResidencial" class="Tests\Feature\Http\Controller\ContatoControllerTest" classname="Tests.Feature.Http.Controller.ContatoControllerTest" file="tests/Feature/ContatoControllerTest.php" line="121" assertions="1" time="0.012307">
+          <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Feature\Http\Controller\ContatoControllerTest::testPostContatoTipoTelefoneResidencial
+Expected status code 201 but received 500.
+Failed asserting that false is true.
+
+vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestResponse.php:151
+tests/Feature/ContatoControllerTest.php:132
+</failure>
+        </testcase>
+        <testcase name="testPostContatoTipoTelefoneComercial" class="Tests\Feature\Http\Controller\ContatoControllerTest" classname="Tests.Feature.Http.Controller.ContatoControllerTest" file="tests/Feature/ContatoControllerTest.php" line="140" assertions="1" time="0.011977">
+          <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Feature\Http\Controller\ContatoControllerTest::testPostContatoTipoTelefoneComercial
+Expected status code 201 but received 500.
+Failed asserting that false is true.
+
+vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestResponse.php:151
+tests/Feature/ContatoControllerTest.php:151
+</failure>
+        </testcase>
+        <testcase name="testPostErrorContatoTipoTelefoneCelularNumeroInvalido" class="Tests\Feature\Http\Controller\ContatoControllerTest" classname="Tests.Feature.Http.Controller.ContatoControllerTest" file="tests/Feature/ContatoControllerTest.php" line="158" assertions="2" time="0.011536"/>
+        <testcase name="testPostContatoTipoTelefoneCelular" class="Tests\Feature\Http\Controller\ContatoControllerTest" classname="Tests.Feature.Http.Controller.ContatoControllerTest" file="tests/Feature/ContatoControllerTest.php" line="178" assertions="1" time="0.012032">
+          <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Feature\Http\Controller\ContatoControllerTest::testPostContatoTipoTelefoneCelular
+Expected status code 201 but received 500.
+Failed asserting that false is true.
+
+vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestResponse.php:151
+tests/Feature/ContatoControllerTest.php:189
+</failure>
+        </testcase>
+        <testcase name="testPostErrorContatoTipoEmailObrigatorio" class="Tests\Feature\Http\Controller\ContatoControllerTest" classname="Tests.Feature.Http.Controller.ContatoControllerTest" file="tests/Feature/ContatoControllerTest.php" line="196" assertions="2" time="0.011428"/>
+        <testcase name="testPostContatoTipoEmail" class="Tests\Feature\Http\Controller\ContatoControllerTest" classname="Tests.Feature.Http.Controller.ContatoControllerTest" file="tests/Feature/ContatoControllerTest.php" line="216" assertions="1" time="0.011925">
+          <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Feature\Http\Controller\ContatoControllerTest::testPostContatoTipoEmail
+Expected status code 201 but received 500.
+Failed asserting that false is true.
+
+vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestResponse.php:151
+tests/Feature/ContatoControllerTest.php:226
+</failure>
+        </testcase>
+        <testcase name="testPutContato" class="Tests\Feature\Http\Controller\ContatoControllerTest" classname="Tests.Feature.Http.Controller.ContatoControllerTest" file="tests/Feature/ContatoControllerTest.php" line="234" assertions="1" time="0.015344">
+          <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Feature\Http\Controller\ContatoControllerTest::testPutContato
+Expected status code 201 but received 500.
+Failed asserting that false is true.
+
+vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestResponse.php:151
+tests/Feature/ContatoControllerTest.php:244
+</failure>
+        </testcase>
+        <testcase name="testDeleteContato" class="Tests\Feature\Http\Controller\ContatoControllerTest" classname="Tests.Feature.Http.Controller.ContatoControllerTest" file="tests/Feature/ContatoControllerTest.php" line="251" assertions="2" time="0.011678"/>
+      </testsuite>
+      <testsuite name="Tests\Feature\Http\Controller\EstadoControllerTest" file="tests/Feature/EstadoControllerTest.php" tests="7" assertions="10" errors="0" failures="0" skipped="0" time="0.551413">
+        <testcase name="testGetEstado" class="Tests\Feature\Http\Controller\EstadoControllerTest" classname="Tests.Feature.Http.Controller.EstadoControllerTest" file="tests/Feature/EstadoControllerTest.php" line="9" assertions="1" time="0.012412"/>
+        <testcase name="testPaginateEstadoFilterEmpty" class="Tests\Feature\Http\Controller\EstadoControllerTest" classname="Tests.Feature.Http.Controller.EstadoControllerTest" file="tests/Feature/EstadoControllerTest.php" line="14" assertions="1" time="0.013040"/>
+        <testcase name="testPaginateEstadoFilter" class="Tests\Feature\Http\Controller\EstadoControllerTest" classname="Tests.Feature.Http.Controller.EstadoControllerTest" file="tests/Feature/EstadoControllerTest.php" line="28" assertions="1" time="0.012870"/>
+        <testcase name="testShowEstado" class="Tests\Feature\Http\Controller\EstadoControllerTest" classname="Tests.Feature.Http.Controller.EstadoControllerTest" file="tests/Feature/EstadoControllerTest.php" line="53" assertions="1" time="0.012446"/>
+        <testcase name="testPostEstado" class="Tests\Feature\Http\Controller\EstadoControllerTest" classname="Tests.Feature.Http.Controller.EstadoControllerTest" file="tests/Feature/EstadoControllerTest.php" line="59" assertions="2" time="0.149953"/>
+        <testcase name="testPutEstado" class="Tests\Feature\Http\Controller\EstadoControllerTest" classname="Tests.Feature.Http.Controller.EstadoControllerTest" file="tests/Feature/EstadoControllerTest.php" line="76" assertions="2" time="0.180198"/>
+        <testcase name="testDeleteEstado" class="Tests\Feature\Http\Controller\EstadoControllerTest" classname="Tests.Feature.Http.Controller.EstadoControllerTest" file="tests/Feature/EstadoControllerTest.php" line="93" assertions="2" time="0.170494"/>
+      </testsuite>
+      <testsuite name="Tests\Feature\Http\Controller\PaisControllerTest" file="tests/Feature/PaisControllerTest.php" tests="6" assertions="9" errors="0" failures="0" skipped="0" time="0.514855">
+        <testcase name="testPaginatePaisFilterEmpty" class="Tests\Feature\Http\Controller\PaisControllerTest" classname="Tests.Feature.Http.Controller.PaisControllerTest" file="tests/Feature/PaisControllerTest.php" line="9" assertions="1" time="0.012481"/>
+        <testcase name="testPaginatePaisFilter" class="Tests\Feature\Http\Controller\PaisControllerTest" classname="Tests.Feature.Http.Controller.PaisControllerTest" file="tests/Feature/PaisControllerTest.php" line="23" assertions="1" time="0.012885"/>
+        <testcase name="testShowPais" class="Tests\Feature\Http\Controller\PaisControllerTest" classname="Tests.Feature.Http.Controller.PaisControllerTest" file="tests/Feature/PaisControllerTest.php" line="45" assertions="1" time="0.011979"/>
+        <testcase name="testPostPais" class="Tests\Feature\Http\Controller\PaisControllerTest" classname="Tests.Feature.Http.Controller.PaisControllerTest" file="tests/Feature/PaisControllerTest.php" line="51" assertions="2" time="0.139294"/>
+        <testcase name="testPutPais" class="Tests\Feature\Http\Controller\PaisControllerTest" classname="Tests.Feature.Http.Controller.PaisControllerTest" file="tests/Feature/PaisControllerTest.php" line="68" assertions="2" time="0.190550"/>
+        <testcase name="testDeletePais" class="Tests\Feature\Http\Controller\PaisControllerTest" classname="Tests.Feature.Http.Controller.PaisControllerTest" file="tests/Feature/PaisControllerTest.php" line="85" assertions="2" time="0.147666"/>
+      </testsuite>
+      <testsuite name="Tests\Feature\Http\Controller\CategoriaControllerTest" file="tests/Feature/PontuacaoControllerTest.php" tests="7" assertions="10" errors="0" failures="0" skipped="0" time="0.519663">
+        <testcase name="testGetCategoria" class="Tests\Feature\Http\Controller\CategoriaControllerTest" classname="Tests.Feature.Http.Controller.CategoriaControllerTest" file="tests/Feature/PontuacaoControllerTest.php" line="9" assertions="1" time="0.027639"/>
+        <testcase name="testPaginateCategoriaFilterEmpty" class="Tests\Feature\Http\Controller\CategoriaControllerTest" classname="Tests.Feature.Http.Controller.CategoriaControllerTest" file="tests/Feature/PontuacaoControllerTest.php" line="14" assertions="1" time="0.013336"/>
+        <testcase name="testPaginateCategoriaFilter" class="Tests\Feature\Http\Controller\CategoriaControllerTest" classname="Tests.Feature.Http.Controller.CategoriaControllerTest" file="tests/Feature/PontuacaoControllerTest.php" line="28" assertions="1" time="0.015814"/>
+        <testcase name="testShowCategoria" class="Tests\Feature\Http\Controller\CategoriaControllerTest" classname="Tests.Feature.Http.Controller.CategoriaControllerTest" file="tests/Feature/PontuacaoControllerTest.php" line="49" assertions="1" time="0.012188"/>
+        <testcase name="testPostCategoria" class="Tests\Feature\Http\Controller\CategoriaControllerTest" classname="Tests.Feature.Http.Controller.CategoriaControllerTest" file="tests/Feature/PontuacaoControllerTest.php" line="55" assertions="2" time="0.141770"/>
+        <testcase name="testPutCategoria" class="Tests\Feature\Http\Controller\CategoriaControllerTest" classname="Tests.Feature.Http.Controller.CategoriaControllerTest" file="tests/Feature/PontuacaoControllerTest.php" line="71" assertions="2" time="0.154488"/>
+        <testcase name="testDeleteCategoria" class="Tests\Feature\Http\Controller\CategoriaControllerTest" classname="Tests.Feature.Http.Controller.CategoriaControllerTest" file="tests/Feature/PontuacaoControllerTest.php" line="87" assertions="2" time="0.154428"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Unit" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.024248">
+      <testsuite name="Tests\Unit\ExampleTest" file="tests/Unit/ExampleTest.php" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.024248">
+        <testcase name="testBasicTest" class="Tests\Unit\ExampleTest" classname="Tests.Unit.ExampleTest" file="tests/Unit/ExampleTest.php" line="14" assertions="1" time="0.024248"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>

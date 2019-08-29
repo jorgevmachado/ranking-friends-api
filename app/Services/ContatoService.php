@@ -84,6 +84,7 @@ class ContatoService extends Service
         }
     }
 
+    //  TODO Criar Validação para excluir ddd e telefone quando for alterado para EMAIL
     public function save($data, $id = null)
     {
         try{
@@ -121,5 +122,52 @@ class ContatoService extends Service
             return true;
         }
         return false;
+    }
+
+    public function getPaginate($data)
+    {
+        $fn = function($key, &$qb, &$filter) {
+            if($filter->get($key)){
+                $qb->where($key, $filter->get($key));
+            }
+        };
+        $filter = $this->getFilter($data);
+        $this->queryBuilder->whereHas(
+            'pessoa',
+            function ($qb) use ($filter, $fn) {
+                if($filter->get('no_nome')) {
+                    $fn('no_nome', $qb, $filter);
+                }
+                if($filter->get('no_sobrenome')) {
+                    $fn('no_sobrenome', $qb, $filter);
+                }
+                if($filter->get('dt_nascimento')) {
+                    $fn('dt_nascimento', $qb, $filter);
+                }
+                if($filter->get('ic_sexo')) {
+                    $fn('ic_sexo', $qb, $filter);
+                }
+                if($filter->get('cd_estado_civil')) {
+                    $fn('cd_estado_civil', $qb, $filter);
+                }
+                if($filter->get('cd_categoria')) {
+                    $fn('cd_categoria', $qb, $filter);
+                }
+                if($filter->get('cd_pontuacao')) {
+                    $fn('cd_pontuacao', $qb, $filter);
+                }
+            }
+        );
+        $filter->forget([
+            'no_nome',
+            'no_sobrenome',
+            'dt_nascimento',
+            'ic_sexo',
+            'cd_estado_civil',
+            'cd_categoria',
+            'cd_pontuacao'
+        ]);
+        $data['filter'] = $this->setFilter($filter);
+        return parent::getPaginate($data);
     }
 }
