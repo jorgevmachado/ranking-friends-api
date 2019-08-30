@@ -34,7 +34,7 @@ class EnderecoSeeder extends Seeder
                 Attribute::NO_RUA                 => 'Quadra SQN 406',
                 Attribute::NR_NUMERO              => '304',
                 Attribute::DS_COMPLEMENTO         => 'Bloco A',
-                Attribute::DS_REFERENCIA          => '',
+                Attribute::DS_REFERENCIA          => 'shopping',
                 Attribute::CD_CIDADE              => 1,
                 Attribute::CD_PESSOA              => 1,
                 Attribute::TS_CRIADO     => new \DateTime(),

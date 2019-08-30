@@ -8,6 +8,11 @@
             <set />
           </value>
         </entry>
+        <entry key="/a.sql">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/.env.testing">
           <value>
             <set />
@@ -33,12 +38,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/Services/EnderecoService.php">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/Services/EstadoService.php">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/Services/Service.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/database/seeds/EnderecoSeeder.php">
           <value>
             <set />
           </value>
@@ -108,6 +123,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/tests/Feature/EstadoCivilControllerTest.php">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/tests/Feature/EstadoControllerTest.php">
           <value>
             <set />
@@ -119,6 +139,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/tests/Feature/PaisControllerTest.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/tests/Feature/PessoaControllerTest.php">
           <value>
             <set />
           </value>

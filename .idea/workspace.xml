@@ -2,119 +2,103 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b42a21a-c5c0-4dcd-8e11-463496a1c2b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Insomnia_2019-08-29.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/.css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/.css/custom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/.css/nv.d3.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/.css/octicons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/.css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/.icons/file-code.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/.icons/file-directory.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/.js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/.js/d3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/.js/file.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/.js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/.js/nv.d3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/.js/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Console/Kernel.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Console/dashboard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Console/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Constants/Attribute.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Constants/Messages.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Constants/dashboard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Constants/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Exceptions/Handler.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Exceptions/dashboard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Exceptions/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Controllers/Auth/ForgotPasswordController.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Controllers/Auth/LoginController.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Controllers/Auth/RegisterController.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Controllers/Auth/ResetPasswordController.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Controllers/Auth/dashboard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Controllers/Auth/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Controllers/CategoriaController.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Controllers/CidadeController.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Controllers/ContatoController.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Controllers/Controller.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Controllers/EnderecoController.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Controllers/EstadoCivilController.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Controllers/EstadoController.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Controllers/PaisController.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Controllers/PessoaController.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Controllers/PontuacaoController.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Controllers/dashboard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Controllers/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Kernel.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Middleware/Authenticate.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Middleware/CheckForMaintenanceMode.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Middleware/EncryptCookies.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Middleware/RedirectIfAuthenticated.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Middleware/TrimStrings.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Middleware/TrustProxies.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Middleware/VerifyCsrfToken.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Middleware/dashboard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Middleware/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Requests/CategoriaRequest.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Requests/CidadeRequest.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Requests/ContatoRequest.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Requests/EnderecoRequest.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Requests/EstadoRequest.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Requests/PaisRequest.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Requests/PontuacaoRequest.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Requests/Request.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Requests/dashboard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Http/Requests/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Http/dashboard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Http/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Models/BaseModel.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Models/Categoria.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Models/Cidade.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Models/Contato.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Models/Endereco.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Models/Estado.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Models/EstadoCivil.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Models/Pais.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Models/Pessoa.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Models/Pontuacao.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Models/dashboard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Models/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Providers/AppServiceProvider.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Providers/AuthServiceProvider.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Providers/BroadcastServiceProvider.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Providers/EventServiceProvider.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Providers/RouteServiceProvider.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Providers/dashboard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Providers/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Services/CategoriaService.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Services/CidadeService.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Services/ContatoService.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Services/EnderecoService.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Services/EstadoCivilService.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Services/EstadoService.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Services/PaisService.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Services/PessoaService.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Services/PontuacaoService.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Services/Service.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Services/dashboard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Services/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Traits/ResponseTrait.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Traits/dashboard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/Traits/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/User.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/dashboard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/html/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/phpunit.coverage.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/phpunit.report.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Feature/CategoriaControllerTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Feature/CidadeControllerTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Feature/ContatoControllerTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Feature/EstadoControllerTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Feature/PaisControllerTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Feature/PontuacaoControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/EstadoCivilControllerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Services/ContatoService.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/ContatoService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Services/EnderecoService.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/EnderecoService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Console/Kernel.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Console/Kernel.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Console/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Console/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Console/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Console/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Constants/Attribute.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Constants/Attribute.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Constants/Messages.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Constants/Messages.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Constants/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Constants/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Constants/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Constants/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Exceptions/Handler.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Exceptions/Handler.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Exceptions/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Exceptions/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Exceptions/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Exceptions/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Http/Controllers/Auth/ForgotPasswordController.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Http/Controllers/Auth/ForgotPasswordController.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Http/Controllers/Auth/LoginController.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Http/Controllers/Auth/LoginController.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Http/Controllers/Auth/RegisterController.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Http/Controllers/Auth/RegisterController.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Http/Controllers/Auth/ResetPasswordController.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Http/Controllers/Auth/ResetPasswordController.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Http/Controllers/Auth/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Http/Controllers/Auth/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Http/Controllers/Auth/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Http/Controllers/Auth/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Http/Controllers/CategoriaController.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Http/Controllers/CategoriaController.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Http/Controllers/CidadeController.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Http/Controllers/CidadeController.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Http/Controllers/ContatoController.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Http/Controllers/ContatoController.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Http/Controllers/Controller.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Http/Controllers/Controller.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Http/Controllers/EnderecoController.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Http/Controllers/EnderecoController.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Http/Controllers/EstadoCivilController.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Http/Controllers/EstadoCivilController.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Http/Controllers/EstadoController.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Http/Controllers/EstadoController.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Http/Controllers/PaisController.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Http/Controllers/PaisController.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Http/Controllers/PessoaController.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Http/Controllers/PessoaController.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Http/Controllers/PontuacaoController.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Http/Controllers/PontuacaoController.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Http/Controllers/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Http/Controllers/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Http/Controllers/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Http/Controllers/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Http/Kernel.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Http/Kernel.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Http/Middleware/Authenticate.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Http/Middleware/Authenticate.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Http/Middleware/CheckForMaintenanceMode.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Http/Middleware/CheckForMaintenanceMode.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Http/Middleware/EncryptCookies.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Http/Middleware/EncryptCookies.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Http/Middleware/RedirectIfAuthenticated.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Http/Middleware/RedirectIfAuthenticated.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Http/Middleware/TrimStrings.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Http/Middleware/TrimStrings.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Http/Middleware/TrustProxies.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Http/Middleware/TrustProxies.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Http/Middleware/VerifyCsrfToken.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Http/Middleware/VerifyCsrfToken.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Http/Middleware/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Http/Middleware/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Http/Middleware/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Http/Middleware/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Http/Requests/CategoriaRequest.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Http/Requests/CategoriaRequest.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Http/Requests/CidadeRequest.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Http/Requests/CidadeRequest.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Http/Requests/ContatoRequest.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Http/Requests/ContatoRequest.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Http/Requests/EnderecoRequest.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Http/Requests/EnderecoRequest.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Http/Requests/EstadoRequest.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Http/Requests/EstadoRequest.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Http/Requests/PaisRequest.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Http/Requests/PaisRequest.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Http/Requests/PontuacaoRequest.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Http/Requests/PontuacaoRequest.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Http/Requests/Request.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Http/Requests/Request.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Http/Requests/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Http/Requests/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Http/Requests/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Http/Requests/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Http/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Http/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Http/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Http/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Models/BaseModel.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Models/BaseModel.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Models/Categoria.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Models/Categoria.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Models/Cidade.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Models/Cidade.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Models/Contato.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Models/Contato.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Models/Endereco.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Models/Endereco.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Models/Estado.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Models/Estado.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Models/EstadoCivil.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Models/EstadoCivil.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Models/Pais.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Models/Pais.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Models/Pessoa.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Models/Pessoa.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Models/Pontuacao.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Models/Pontuacao.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Models/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Models/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Models/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Models/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Providers/AppServiceProvider.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Providers/AppServiceProvider.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Providers/AuthServiceProvider.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Providers/AuthServiceProvider.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Providers/BroadcastServiceProvider.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Providers/BroadcastServiceProvider.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Providers/EventServiceProvider.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Providers/EventServiceProvider.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Providers/RouteServiceProvider.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Providers/RouteServiceProvider.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Providers/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Providers/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Providers/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Providers/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Services/CategoriaService.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Services/CategoriaService.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Services/CidadeService.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Services/CidadeService.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Services/ContatoService.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Services/ContatoService.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Services/EnderecoService.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Services/EnderecoService.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Services/EstadoCivilService.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Services/EstadoCivilService.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Services/EstadoService.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Services/EstadoService.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Services/PaisService.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Services/PaisService.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Services/PessoaService.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Services/PessoaService.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Services/PontuacaoService.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Services/PontuacaoService.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Services/Service.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Services/Service.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Services/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Services/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Services/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Services/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Traits/ResponseTrait.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Traits/ResponseTrait.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Traits/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Traits/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/Traits/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/Traits/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/User.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/User.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/phpunit.coverage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/phpunit.coverage.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/phpunit.report.xml" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/phpunit.report.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/EnderecoSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/EnderecoSeeder.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -142,42 +126,25 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="ranking@172.23.0.2" type="feb32156:DbDataSourceImpl" />
+        <item name="database.sqlite" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="ranking@172.23.0.2" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="ranking@172.23.0.2" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="ranking: database" type="162271b6:PgImplModel$Database" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="ranking@172.23.0.2" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="ranking: database" type="162271b6:PgImplModel$Database" />
+        <item name="database.sqlite" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="ranking@172.23.0.2" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="ranking: database" type="162271b6:PgImplModel$Database" />
+        <item name="database.sqlite" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="ranking@172.23.0.2" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="ranking: database" type="162271b6:PgImplModel$Database" />
+        <item name="database.sqlite" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+        <item name="tb_endereco: table" type="3d80ac25:SqliteImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -278,7 +245,7 @@
   <component name="ProjectId" id="1Q0UYY0nUVaFR5hjOkgT0ojQ3Ih" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="DatabaseDriversLRU" value="postgresql&#10;sqlite" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -320,7 +287,12 @@
     <option name="allServicesViewState">
       <serviceView>
         <treeState>
-          <expand />
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@6798cc6c" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+          </expand>
           <select />
         </treeState>
       </serviceView>
@@ -341,7 +313,7 @@
       <workItem from="1566907055244" duration="4375000" />
       <workItem from="1566912126973" duration="3762000" />
       <workItem from="1566923631658" duration="2130000" />
-      <workItem from="1567102415652" duration="5652000" />
+      <workItem from="1567102415652" duration="9959000" />
     </task>
     <task id="LOCAL-00001" summary="Alteração de docker">
       <created>1566911412890</created>
@@ -371,7 +343,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566925585379</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Ajustando os Testes">
+      <created>1567108111196</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1567108111196</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
