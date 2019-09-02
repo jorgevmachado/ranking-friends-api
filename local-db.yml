@@ -1,0 +1,29 @@
+version: "3.5"
+services:
+  db:
+    container_name: ranking-db
+    image: postgres:alpine
+    environment:
+      POSTGRES_DB: ranking
+      POSTGRES_USER: ranking
+      POSTGRES_PASSWORD: ranking
+    tty: true
+    restart: always
+  api:
+    container_name: ranking-friends-api
+    image: engesoftwarebr/laravel
+    working_dir: /var/www
+    volumes:
+      - .:/var/www/
+    environment:
+      - APP_ENV=local
+    entrypoint: ["/bin/sh", "/var/www/docker/entrypoint/local-db.sh"]
+    command: php artisan serve --host 0.0.0.0 --port 80
+    ports:
+      - 80:80
+    tty: true
+    restart: on-failure
+    links:
+      - db
+    depends_on:
+      - db

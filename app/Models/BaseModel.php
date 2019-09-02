@@ -5,8 +5,9 @@ namespace App\Models;
 use App\Constants\Attribute;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\DB;
 
- abstract class BaseModel extends Model
+abstract class BaseModel extends Model
 {
      /**
       * O Nome da coluna "created at".
