@@ -57,4 +57,47 @@ class PessoaControllerTest extends TestCase
         $response = $this->get('api/pessoa/1');
         $response->assertStatus(200);
     }
+
+    public function testPostPessoa()
+    {
+        $response = $this->post(
+            'api/pessoa',
+            [
+                "no_nome" => "Pessoa  nome Form",
+                "no_sobrenome" => "Pessoa Sobrenome Form",
+                "dt_nascimento" => "1990-07-07",
+                "ic_sexo" => "M",
+                "cd_estado_civil" => "1",
+                "cd_categoria" => "1",
+                "cd_pontuacao" => "1"
+            ]
+        );
+        $response->assertStatus(201);
+        $response->assertJson([
+            'success' => true,
+            'message' => 'Criado com sucesso.',
+        ]);
+    }
+
+    public function testPutPessoa()
+    {
+        $response = $this->put(
+            'api/pessoa/1',
+            [
+                "no_nome" => "Pessoa  nome Form",
+                "no_sobrenome" => "Pessoa Sobrenome Form",
+                "dt_nascimento" => "1990-07-07",
+                "ic_sexo" => "M",
+                "cd_estado_civil" => "1",
+                "cd_categoria" => "1",
+                "cd_pontuacao" => "1"
+            ]
+        );
+        $response->assertStatus(201);
+        $response->assertJson([
+            'success' => true,
+            'message' => 'Atualizado com sucesso.',
+        ]);
+
+    }
 }
