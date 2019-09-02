@@ -8,9 +8,10 @@ class EstadoControllerTest extends TestCase
 {
     public function testGetEstado()
     {
-        $response = $this->get('/api/estado');
+        $response = $this->get('api/estado');
         $response->assertStatus(200);
     }
+
     public function testPaginateEstadoFilterEmpty()
     {
         $payload = [
@@ -25,6 +26,7 @@ class EstadoControllerTest extends TestCase
         );
         $response->assertStatus(200);
     }
+
     public function testPaginateEstadoFilter()
     {
         $payload = [
@@ -52,14 +54,14 @@ class EstadoControllerTest extends TestCase
 
     public function testShowEstado()
     {
-        $response = $this->get('/api/estado/1');
+        $response = $this->get('api/estado/1');
         $response->assertStatus(200);
     }
 
     public function testPostEstado()
     {
         $response = $this->post(
-            '/api/estado',
+            'api/estado',
             [
                 'no_estado' => 'Goias',
                 'sg_estado' => 'GO',
@@ -76,7 +78,7 @@ class EstadoControllerTest extends TestCase
     public function testPutEstado()
     {
         $response = $this->put(
-            '/api/estado/1',
+            'api/estado/1',
             [
                 'no_estado' => 'Goias',
                 'sg_estado' => 'GO',
@@ -92,7 +94,7 @@ class EstadoControllerTest extends TestCase
 
     public function testDeleteEstado()
     {
-        $response = $this->delete('/api/estado/1');
+        $response = $this->delete('api/estado/1');
         $response->assertStatus(200);
         $response->assertJson([
             'success' => true,

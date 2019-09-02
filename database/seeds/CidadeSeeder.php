@@ -31,6 +31,11 @@ class CidadeSeeder extends Seeder
                 Attribute::NO_CIDADE        => 'Brasilia',
                 Attribute::CD_ESTADO        => 1,
                 Attribute::TS_CRIADO        => new \DateTime(),
+            ],
+            [
+                Attribute::NO_CIDADE        => 'Águas Claras',
+                Attribute::CD_ESTADO        => 1,
+                Attribute::TS_CRIADO        => new \DateTime(),
             ]
         ];
 

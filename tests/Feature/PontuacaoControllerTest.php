@@ -4,41 +4,43 @@ namespace Tests\Feature\Http\Controller;
 
 use Tests\Feature\TestCase;
 
-class CategoriaControllerTest extends TestCase
+class PontuacaoControllerTest extends TestCase
 {
-    public function testGetCategoria()
+    public function testGetPontuacao()
     {
-        $response = $this->get('/api/categoria');
+        $response = $this->get('api/pontuacao');
         $response->assertStatus(200);
     }
-    public function testPaginateCategoriaFilterEmpty()
+
+    public function testPaginatePontuacaoFilterEmpty()
     {
         $payload = [
             'filter' => [],
             'order'  => []
         ];
         $response = $this->get(
-            'api/categoria?page=1&filter='.
+            'api/pontuacao?page=1&filter='.
             json_encode($payload['filter']).
             '&order='.
             json_encode($payload['order'])
         );
         $response->assertStatus(200);
     }
-    public function testPaginateCategoriaFilter()
+
+    public function testPaginatePontuacaoFilter()
     {
         $payload = [
             'filter' => [
-                'cd_categoria' => 1,
-                'no_categoria' => 'Familiares',
-                'ds_categoria' => 'Amigos',
+                'cd_pontuacao' => 1,
+                'nr_pontuacao' => 2,
+                'ds_pontuacao' => 'Não gosto',
             ],
             'order'  => [
-                'cd_categoria' => 'DESC'
+                'cd_pontuacao' => 'DESC'
             ]
         ];
         $response = $this->get(
-            'api/categoria?page=1&filter='.
+            'api/pontuacao?page=1&filter='.
             json_encode($payload['filter']).
             '&order='.
             json_encode($payload['order'])
@@ -46,19 +48,19 @@ class CategoriaControllerTest extends TestCase
         $response->assertStatus(200);
     }
 
-    public function testShowCategoria()
+    public function testShowPontuacao()
     {
-        $response = $this->get('/api/categoria/1');
+        $response = $this->get('api/pontuacao/1');
         $response->assertStatus(200);
     }
 
-    public function testPostCategoria()
+    public function testPostPontuacao()
     {
         $response = $this->post(
-            '/api/categoria',
+            'api/pontuacao',
             [
-                'no_categoria' => 'Amigo late',
-                'ds_categoria' => 'Amigo que late',
+                'nr_pontuacao' => 2,
+                'ds_pontuacao' => 'Pontuação que eu quero',
             ]
         );
         $response->assertStatus(201);
@@ -68,13 +70,13 @@ class CategoriaControllerTest extends TestCase
         ]);
     }
 
-    public function testPutCategoria()
+    public function testPutPontuacao()
     {
         $response = $this->put(
-            '/api/categoria/1',
+            'api/pontuacao/1',
             [
-                'no_categoria' => 'Amigo late',
-                'ds_categoria' => 'Amigo que late',
+                'nr_pontuacao' => 2,
+                'ds_pontuacao' => 'Pontuação que eu quero',
             ]
         );
         $response->assertStatus(201);
@@ -84,9 +86,9 @@ class CategoriaControllerTest extends TestCase
         ]);
     }
 
-    public function testDeleteCategoria()
+    public function testDeletePontuacao()
     {
-        $response = $this->delete('/api/categoria/1');
+        $response = $this->delete('api/pontuacao/1');
         $response->assertStatus(200);
         $response->assertJson([
             'success' => true,

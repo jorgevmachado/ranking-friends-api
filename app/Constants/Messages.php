@@ -23,4 +23,7 @@ class Messages
     const MSG009 = 'Endereço de E-mail é obrigatorio.';
     const MSG010 = 'O DDD não é valido para o tipo selecionado.';
     const MSG011 = 'O Número de telefone não é valido para o tipo selecionado.';
+
+    const MSG012 = 'Não é possivel excluir uma categoria, relascionada a pessoa.';
+    const MSG013 = 'Não é possivel excluir uma cidade, relascionada a endereço.';
 }

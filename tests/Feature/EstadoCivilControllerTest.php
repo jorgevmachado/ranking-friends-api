@@ -8,9 +8,10 @@ class EstadoCivilControllerTest extends TestCase
 {
     public function testGetEstadoCivil()
     {
-        $response = $this->get('/api/estado-civil');
+        $response = $this->get('api/estado-civil');
         $response->assertStatus(200);
     }
+
     public function testPaginateEstadoCivilFilterEmpty()
     {
         $payload = [
@@ -25,6 +26,7 @@ class EstadoCivilControllerTest extends TestCase
         );
         $response->assertStatus(200);
     }
+
     public function testPaginateEstadoCivilFilter()
     {
         $payload = [
@@ -47,7 +49,7 @@ class EstadoCivilControllerTest extends TestCase
 
     public function testShowEstadoCivil()
     {
-        $response = $this->get('/api/estado-civil/1');
+        $response = $this->get('api/estado-civil/1');
         $response->assertStatus(200);
     }
 }
