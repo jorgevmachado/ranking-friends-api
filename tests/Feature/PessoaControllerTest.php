@@ -8,9 +8,10 @@ class PessoaControllerTest extends TestCase
 {
     public function testGetPessoa()
     {
-        $response = $this->get('/api/pessoa');
+        $response = $this->get('api/pessoa');
         $response->assertStatus(200);
     }
+
     public function testPaginatePessoaFilterEmpty()
     {
         $payload = [
@@ -25,6 +26,7 @@ class PessoaControllerTest extends TestCase
         );
         $response->assertStatus(200);
     }
+
     public function testPaginatePessoaFilter()
     {
         $payload = [
@@ -52,7 +54,7 @@ class PessoaControllerTest extends TestCase
 
     public function testShowPessoa()
     {
-        $response = $this->get('/api/pessoa/1');
+        $response = $this->get('api/pessoa/1');
         $response->assertStatus(200);
     }
 }

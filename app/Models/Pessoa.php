@@ -38,7 +38,7 @@ class Pessoa extends BaseModel
     public function endereco()
     {
         return $this->belongsTo(
-            Estado::class,
+            Endereco::class,
             Attribute::CD_PESSOA,
             Attribute::CD_PESSOA
         );
@@ -46,7 +46,7 @@ class Pessoa extends BaseModel
 
     public function contato()
     {
-        return $this->belongsTo(
+        return $this->hasMany(
             Contato::class,
             Attribute::CD_PESSOA,
             Attribute::CD_PESSOA

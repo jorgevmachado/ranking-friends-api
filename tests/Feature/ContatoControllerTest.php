@@ -117,7 +117,6 @@ class ContatoControllerTest extends TestCase
         ]);
     }
 
-    // TODO Deu erro nos testes
     public function testPostContatoTipoTelefoneResidencial()
     {
         $response = $this->post(
@@ -136,7 +135,6 @@ class ContatoControllerTest extends TestCase
         ]);
     }
 
-    // TODO Deu erro nos testes
     public function testPostContatoTipoTelefoneComercial()
     {
         $response = $this->post(
@@ -174,7 +172,45 @@ class ContatoControllerTest extends TestCase
         ]);
     }
 
-    // TODO Deu erro nos testes
+    public function testPostErrorContatoTipoTelefoneResidencialNumeroInvalido()
+    {
+        $response = $this->post(
+            '/api/contato',
+            [
+                'ic_contato' => 'RESIDENCIAL',
+                'cd_pessoa' => 1,
+                'nr_ddd' => '061',
+                'nr_telefone' => '999999999',
+            ]
+        );
+        $response->assertStatus(422);
+        $response->assertJson([
+            'success' => false,
+            'message' => 'O número de telefone deve ter 8 digitos.',
+            'code' => 422
+        ]);
+    }
+
+    public function testPostErrorContatoTipoTelefoneResidencialEmailInvalidoParaTipoSelecionado()
+    {
+        $response = $this->post(
+            '/api/contato',
+            [
+                'ic_contato' => 'CELULAR',
+                'cd_pessoa' => 1,
+                'nr_ddd' => '061',
+                'nr_telefone' => '999999999',
+                'ed_email' => 'maria@maria.com'
+            ]
+        );
+        $response->assertStatus(422);
+        $response->assertJson([
+            'success' => false,
+            'message' => 'O e-mail não é valido para o tipo selecionado.',
+            'code' => 422
+        ]);
+    }
+
     public function testPostContatoTipoTelefoneCelular()
     {
         $response = $this->post(
@@ -212,7 +248,62 @@ class ContatoControllerTest extends TestCase
         ]);
     }
 
-    // TODO Deu erro nos testes
+    public function testPostContatoTipoInvalid()
+    {
+        $response = $this->post(
+            '/api/contato',
+            [
+                'ic_contato' => 'TESTE',
+                'cd_pessoa' => 1,
+                'ed_email' => 'maria@maria.com'
+            ]
+        );
+        $response->assertStatus(422);
+        $response->assertJson([
+            'success' => false,
+            'message' => 'Tipo de contato não valido.',
+            'code' => 422
+        ]);
+    }
+
+    public function testPostContatoTipoEmailDDDInvalidoParaTipoSelecionado()
+    {
+        $response = $this->post(
+            '/api/contato',
+            [
+                'ic_contato' => 'EMAIL',
+                'cd_pessoa' => 1,
+                'ed_email' => 'maria@maria.com',
+                'nr_ddd' => '061',
+            ]
+        );
+        $response->assertStatus(422);
+        $response->assertJson([
+            'success' => false,
+            'message' => 'O DDD não é valido para o tipo selecionado.',
+            'code' => 422
+        ]);
+    }
+
+    public function testPostContatoTipoEmailNumeroTelefoneInvalidoParaTipoSelecionado()
+    {
+        $response = $this->post(
+            '/api/contato',
+            [
+                'ic_contato' => 'EMAIL',
+                'cd_pessoa' => 1,
+                'ed_email' => 'maria@maria.com',
+                'nr_telefone' => '999999999',
+            ]
+        );
+        $response->assertStatus(422);
+        $response->assertJson([
+            'success' => false,
+            'message' => 'O Número de telefone não é valido para o tipo selecionado.',
+            'code' => 422
+        ]);
+    }
+
     public function testPostContatoTipoEmail()
     {
         $response = $this->post(
@@ -230,7 +321,6 @@ class ContatoControllerTest extends TestCase
         ]);
     }
 
-    // TODO Deu erro nos testes
     public function testPutContato()
     {
         $response = $this->put(
@@ -239,6 +329,24 @@ class ContatoControllerTest extends TestCase
                 'ic_contato' => 'EMAIL',
                 'cd_pessoa' => 1,
                 'ed_email' => 'maria@maria.com'
+            ]
+        );
+        $response->assertStatus(201);
+        $response->assertJson([
+            'success' => true,
+            'message' => 'Atualizado com sucesso.',
+        ]);
+    }
+
+    public function testPutContatoEmailParaCelular()
+    {
+        $response = $this->put(
+            '/api/contato/4',
+            [
+                'ic_contato' => 'CELULAR',
+                'cd_pessoa' => 1,
+                'nr_ddd' => '061',
+                'nr_telefone' => '999999999',
             ]
         );
         $response->assertStatus(201);

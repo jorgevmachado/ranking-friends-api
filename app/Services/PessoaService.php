@@ -17,7 +17,13 @@ class PessoaService extends Service
     public function __construct(Pessoa $model)
     {
         $this->model = $model;
-        $this->queryBuilder = $this->model->with([Attribute::CATEGORIA, Attribute::ESTADO_CIVIL, Attribute::PONTUACAO]);
+        $this->queryBuilder = $this->model->with([
+            Attribute::CATEGORIA,
+            Attribute::ESTADO_CIVIL,
+            Attribute::PONTUACAO,
+            Attribute::ENDERECO,
+            Attribute::CONTATO,
+        ]);
         parent::__construct();
     }
 }

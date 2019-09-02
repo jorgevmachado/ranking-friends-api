@@ -84,17 +84,35 @@ class ContatoService extends Service
         }
     }
 
-    //  TODO Criar Validação para excluir ddd e telefone quando for alterado para EMAIL
     public function save($data, $id = null)
     {
         try{
             $this->isValid($data, $id);
-            return parent::save($data, $id);
+            $entity = $this->model;
+            if ($id) {
+                $entity = $this->model->find($id);
+                $this->updateByType($entity, $data);
+                unset($data[Attribute::ID]);
+            }
+            $entity->populate($data);
+            $entity->save();
+            return $entity;
         } catch (\Exception $exception) {
             return $exception;
         }
 
+    }
 
+    private function updateByType($entity, $data) {
+        if($entity->ic_contato !== $data[Attribute::IC_CONTATO]) {
+            if($this->isMail($data[Attribute::IC_CONTATO])){
+                $data[Attribute::NR_DDD] = null;
+                $data[Attribute::NR_TELEFONE] = null;
+            }
+            if($this->isPhone($data[Attribute::IC_CONTATO])){
+                $data[Attribute::ED_EMAIL] = null;
+            }
+        }
     }
 
     private function isPhone($type): bool

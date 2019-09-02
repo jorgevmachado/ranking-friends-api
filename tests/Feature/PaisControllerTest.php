@@ -20,6 +20,7 @@ class PaisControllerTest extends TestCase
         );
         $response->assertStatus(200);
     }
+
     public function testPaginatePaisFilter()
     {
         $payload = [
@@ -44,14 +45,14 @@ class PaisControllerTest extends TestCase
 
     public function testShowPais()
     {
-        $response = $this->get('/api/pais/1');
+        $response = $this->get('api/pais/1');
         $response->assertStatus(200);
     }
 
     public function testPostPais()
     {
         $response = $this->post(
-            '/api/pais',
+            'api/pais',
             [
                 'no_pais' => 'Estados Unidos',
                 'sg_pais' => 'EUA',
@@ -68,7 +69,7 @@ class PaisControllerTest extends TestCase
     public function testPutPais()
     {
         $response = $this->put(
-            '/api/pais/1',
+            'api/pais/1',
             [
                 'no_pais' => 'Estados Unidos',
                 'sg_pais' => 'EUA',
@@ -84,7 +85,7 @@ class PaisControllerTest extends TestCase
 
     public function testDeletePais()
     {
-        $response = $this->delete('/api/pais/1');
+        $response = $this->delete('api/pais/1');
         $response->assertStatus(200);
         $response->assertJson([
             'success' => true,

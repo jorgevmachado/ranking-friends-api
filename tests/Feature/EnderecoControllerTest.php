@@ -8,7 +8,7 @@ class EnderecoControllerTest extends TestCase
 {
     public function testGetEndereco()
     {
-        $response = $this->get('/api/endereco');
+        $response = $this->get('api/endereco');
         $response->assertStatus(200);
     }
 
@@ -71,11 +71,10 @@ class EnderecoControllerTest extends TestCase
 
     public function testShowEndereco()
     {
-        $response = $this->get('/api/endereco/1');
+        $response = $this->get('api/endereco/1');
         $response->assertStatus(200);
     }
 
-    // TODO Verificar requisição erro 500
     public function testPostEndereco()
     {
         $response = $this->post(
@@ -96,10 +95,9 @@ class EnderecoControllerTest extends TestCase
         ]);
     }
 
-    // TODO Verificar requisição erro 405
     public function testPutEndereco()
     {
-        $response = $this->post(
+        $response = $this->put(
             'api/endereco/1',
             [
                 'nr_cep' => '11222333',
@@ -119,7 +117,7 @@ class EnderecoControllerTest extends TestCase
 
     public function testDeleteEndereco()
     {
-        $response = $this->delete('/api/endereco/1');
+        $response = $this->delete('api/endereco/1');
         $response->assertStatus(200);
         $response->assertJson([
             'success' => true,

@@ -8,9 +8,10 @@ class CidadeControllerTest extends TestCase
 {
     public function testGetCidade()
     {
-        $response = $this->get('/api/cidade');
+        $response = $this->get('api/cidade');
         $response->assertStatus(200);
     }
+
     public function testPaginateCidadeFilterEmpty()
     {
         $payload = [
@@ -25,6 +26,7 @@ class CidadeControllerTest extends TestCase
         );
         $response->assertStatus(200);
     }
+
     public function testPaginateCidadeFilter()
     {
         $payload = [
@@ -54,14 +56,14 @@ class CidadeControllerTest extends TestCase
 
     public function testShowCidade()
     {
-        $response = $this->get('/api/cidade/1');
+        $response = $this->get('api/cidade/1');
         $response->assertStatus(200);
     }
 
     public function testPostCidade()
     {
         $response = $this->post(
-            '/api/cidade',
+            'api/cidade',
             [
                 'no_cidade' => 'Guará',
                 'cd_estado' => 1,
@@ -77,7 +79,7 @@ class CidadeControllerTest extends TestCase
     public function testPutCidade()
     {
         $response = $this->put(
-            '/api/cidade/1',
+            'api/cidade/1',
             [
                 'no_cidade' => 'Guará',
                 'cd_estado' => 1,
@@ -90,9 +92,20 @@ class CidadeControllerTest extends TestCase
         ]);
     }
 
+    public function testDeleteCidadeErrorRelascionadaAEndereco()
+    {
+        $response = $this->delete('api/cidade/1');
+        $response->assertStatus(422);
+        $response->assertJson([
+            'success' => false,
+            'message' => 'Não é possivel excluir uma cidade, relascionada a endereço.',
+            'code' => 422
+        ]);
+    }
+
     public function testDeleteCidade()
     {
-        $response = $this->delete('/api/cidade/1');
+        $response = $this->delete('api/cidade/2');
         $response->assertStatus(200);
         $response->assertJson([
             'success' => true,
