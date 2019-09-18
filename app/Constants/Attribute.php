@@ -43,6 +43,8 @@ class Attribute
     const CATEGORIA         = 'categoria';
     const PONTUACAO         = 'pontuacao';
     const ESTADO_CIVIL      = 'estadoCivil';
+    const ESTADO_PAIS       = 'estado.pais';
+    const CIDADE_ESTADO_PAIS= 'cidade.estado.pais';
     /*######## CÓDIGOS ########################*/
     const CD_PAIS           = 'cd_pais';
     const CD_ESTADO         = 'cd_estado';
@@ -85,6 +87,7 @@ class Attribute
     /*####### TIPOS ###########################*/
     const IC_SEXO           = 'ic_sexo';
     const IC_CONTATO        = 'ic_contato';
+    const IC_ESTADO_CIVIL   = 'ic_estado_civil';
     /*####### IC_CONTATO ######################*/
     const CELULAR           = 'CELULAR';
     const COMERCIAL         = 'COMERCIAL';

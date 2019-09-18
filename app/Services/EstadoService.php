@@ -22,28 +22,16 @@ class EstadoService extends Service
 
     public function getPaginate($data)
     {
-        $fn = function($key, &$qb, &$filter) {
-            if($filter->get($key)){
-                $qb->where($key, $filter->get($key));
-            }
-        };
         $filter = $this->getFilter($data);
         $this->queryBuilder->whereHas(
-            'pais',
-            function ($qb) use ($filter, $fn) {
-                if($filter->get('no_pais')){
-                    $fn('no_pais', $qb, $filter);
-                }
-                if($filter->get('no_continente')){
-                    $fn('no_continente', $qb, $filter);
-                }
-                if($filter->get('sg_pais')){
-                    $fn('sg_pais', $qb, $filter);
-                }
+            Attribute::PAIS,
+            function ($qb) use ($filter) {
+                    $this->filter(Attribute::NO_PAIS, $qb, $filter);
+                    $this->filter(Attribute::NO_CONTINENTE, $qb, $filter);
+                    $this->filter(Attribute::SG_PAIS, $qb, $filter);
             }
         );
-        $filter->forget(['no_pais', 'no_continente', 'sg_pais']);
-        $data['filter'] = $this->setFilter($filter);
+        $data[Attribute::FILTER] = $this->setFilter($filter);
         return parent::getPaginate($data);
     }
 }

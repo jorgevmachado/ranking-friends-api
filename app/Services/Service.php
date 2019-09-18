@@ -114,7 +114,7 @@ abstract class Service
      * @param null $id
      * @return bool
      */
-    public function isValid(&$data, $id = null): bool
+    public function isValid(array &$data, $id = null): bool
     {
         if ($data && ($id || !$id)) {
             return true;
@@ -163,6 +163,21 @@ abstract class Service
         }
     }
 
+    /**
+     * Recebe o filtro e verfica a sua existencia, existindo realiza o filtro.
+     *
+     * @param $key
+     * @param Builder $qb
+     * @param Collection $filter
+     */
+    public function filter($key, Builder &$qb, Collection &$filter)
+    {
+        if($filter->get($key)){
+         $qb->where($key, $filter->get($key));
+         $filter->forget([$key]);
+        }
+
+    }
     /**
      * Recebe o array data do post extrai o objeto filter e retornando como collection
      *

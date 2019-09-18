@@ -23,7 +23,7 @@ class ContatoService extends Service
         parent::__construct();
     }
 
-    public function isValid(&$data, $id = null): bool
+    public function isValid(array &$data, $id = null): bool
     {
         if(!$this->isPhone($data[Attribute::IC_CONTATO]) && !$this->isMail($data[Attribute::IC_CONTATO])){
             throw new \InvalidArgumentException(Messages::MSG002, 422);
@@ -103,7 +103,7 @@ class ContatoService extends Service
 
     }
 
-    private function updateByType($entity, $data) {
+    private function updateByType($entity, array $data) {
         if($entity->ic_contato !== $data[Attribute::IC_CONTATO]) {
             if($this->isMail($data[Attribute::IC_CONTATO])){
                 $data[Attribute::NR_DDD] = null;
@@ -115,16 +115,12 @@ class ContatoService extends Service
         }
     }
 
-    private function isPhone($type): bool
+    private function isPhone(string $type): bool
     {
         switch ($type) {
-            case Attribute::CELULAR:
-                $result =  true;
-                break;
             case Attribute::COMERCIAL:
-                $result =  true;
-                break;
             case Attribute::RESIDENCIAL:
+            case Attribute::CELULAR:
                 $result =  true;
                 break;
             default:
@@ -144,48 +140,20 @@ class ContatoService extends Service
 
     public function getPaginate($data)
     {
-        $fn = function($key, &$qb, &$filter) {
-            if($filter->get($key)){
-                $qb->where($key, $filter->get($key));
-            }
-        };
         $filter = $this->getFilter($data);
         $this->queryBuilder->whereHas(
-            'pessoa',
-            function ($qb) use ($filter, $fn) {
-                if($filter->get('no_nome')) {
-                    $fn('no_nome', $qb, $filter);
-                }
-                if($filter->get('no_sobrenome')) {
-                    $fn('no_sobrenome', $qb, $filter);
-                }
-                if($filter->get('dt_nascimento')) {
-                    $fn('dt_nascimento', $qb, $filter);
-                }
-                if($filter->get('ic_sexo')) {
-                    $fn('ic_sexo', $qb, $filter);
-                }
-                if($filter->get('cd_estado_civil')) {
-                    $fn('cd_estado_civil', $qb, $filter);
-                }
-                if($filter->get('cd_categoria')) {
-                    $fn('cd_categoria', $qb, $filter);
-                }
-                if($filter->get('cd_pontuacao')) {
-                    $fn('cd_pontuacao', $qb, $filter);
-                }
+            Attribute::PESSOA,
+            function ($qb) use ($filter) {
+                    $this->filter(Attribute::NO_NOME, $qb, $filter);
+                    $this->filter(Attribute::NO_SOBRENOME, $qb, $filter);
+                    $this->filter(Attribute::DT_NASCIMENTO, $qb, $filter);
+                    $this->filter(Attribute::IC_SEXO, $qb, $filter);
+                    $this->filter(Attribute::CD_ESTADO_CIVIL, $qb, $filter);
+                    $this->filter(Attribute::CD_CATEGORIA, $qb, $filter);
+                    $this->filter(Attribute::CD_PONTUACAO, $qb, $filter);
             }
         );
-        $filter->forget([
-            'no_nome',
-            'no_sobrenome',
-            'dt_nascimento',
-            'ic_sexo',
-            'cd_estado_civil',
-            'cd_categoria',
-            'cd_pontuacao'
-        ]);
-        $data['filter'] = $this->setFilter($filter);
+        $data[Attribute::FILTER] = $this->setFilter($filter);
         return parent::getPaginate($data);
     }
 }

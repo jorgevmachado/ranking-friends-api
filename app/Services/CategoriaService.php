@@ -4,6 +4,7 @@
 namespace App\Services;
 
 
+use App\Constants\Attribute;
 use App\Constants\Messages;
 use App\Models\Categoria;
 use App\Models\Pessoa;
@@ -23,7 +24,7 @@ class CategoriaService extends Service
 
     public function isValidDelete($id): bool
     {
-        $pessoa = Pessoa::where('cd_categoria',  '=' , $id)->first();
+        $pessoa = Pessoa::where(Attribute::CD_CATEGORIA,  '=' , $id)->first();
         if ($pessoa) {
             throw new \InvalidArgumentException(Messages::MSG012, 422);
         }

@@ -23,87 +23,33 @@ class EnderecoService extends Service
 
     public function getPaginate($data)
     {
-        $fn = function($key, &$qb, &$filter) {
-            if($filter->get($key)){
-                $qb->where($key, $filter->get($key));
-            }
-        };
         $filter = $this->getFilter($data);
         $this->queryBuilder->whereHas(
-            'cidade.estado.pais',
-            function ($qb) use ($filter, $fn) {
-                if($filter->get('no_cidade')) {
-                    $fn('no_cidade', $qb, $filter);
-                }
-                if($filter->get('cd_estado')) {
-                    $fn('cd_estado', $qb, $filter);
-                }
-                if($filter->get('no_estado')) {
-                    $fn('no_estado', $qb, $filter);
-                }
-                if($filter->get('cd_pais')) {
-                    $fn('cd_pais', $qb, $filter);
-                }
-                if($filter->get('sg_estado')) {
-                    $fn('sg_estado', $qb, $filter);
-                }
-                if($filter->get('no_pais')) {
-                    $fn('no_pais', $qb, $filter);
-                }
-                if($filter->get('no_continente')) {
-                    $fn('no_continente', $qb, $filter);
-                }
-                if($filter->get('sg_pais')) {
-                    $fn('sg_pais', $qb, $filter);
-                }
+            Attribute::CIDADE_ESTADO_PAIS,
+            function ($qb) use ($filter) {
+                    $this->filter(Attribute::NO_CIDADE, $qb, $filter);
+                    $this->filter(Attribute::CD_ESTADO, $qb, $filter);
+                    $this->filter(Attribute::NO_ESTADO, $qb, $filter);
+                    $this->filter(Attribute::CD_PAIS, $qb, $filter);
+                    $this->filter(Attribute::SG_ESTADO, $qb, $filter);
+                    $this->filter(Attribute::NO_PAIS, $qb, $filter);
+                    $this->filter(Attribute::NO_CONTINENTE, $qb, $filter);
+                    $this->filter(Attribute::SG_PAIS, $qb, $filter);
             }
         );
         $this->queryBuilder->whereHas(
-            'pessoa',
-            function ($qb) use ($filter, $fn) {
-                if($filter->get('no_nome')) {
-                    $fn('no_nome', $qb, $filter);
-                }
-                if($filter->get('no_sobrenome')) {
-                    $fn('no_sobrenome', $qb, $filter);
-                }
-                if($filter->get('dt_nascimento')) {
-                    $fn('dt_nascimento', $qb, $filter);
-                }
-                if($filter->get('ic_sexo')) {
-                    $fn('ic_sexo', $qb, $filter);
-                }
-                if($filter->get('cd_estado_civil')) {
-                    $fn('cd_estado_civil', $qb, $filter);
-                }
-                if($filter->get('cd_categoria')) {
-                    $fn('cd_categoria', $qb, $filter);
-                }
-                if($filter->get('cd_pontuacao')) {
-                    $fn('cd_pontuacao', $qb, $filter);
-                }
+            Attribute::PESSOA,
+            function ($qb) use ($filter) {
+                    $this->filter(Attribute::NO_NOME, $qb, $filter);
+                    $this->filter(Attribute::NO_SOBRENOME, $qb, $filter);
+                    $this->filter(Attribute::DT_NASCIMENTO, $qb, $filter);
+                    $this->filter(Attribute::IC_SEXO, $qb, $filter);
+                    $this->filter(Attribute::IC_ESTADO_CIVIL, $qb, $filter);
+                    $this->filter(Attribute::CD_CATEGORIA, $qb, $filter);
+                    $this->filter(Attribute::CD_PONTUACAO, $qb, $filter);
             }
         );
-        $filter->forget([
-            'no_cidade',
-            'cd_estado',
-            'no_estado',
-            'cd_pais',
-            'sg_estado',
-            'no_pais',
-            'no_continente',
-            'sg_pais',
-            '',
-            '',
-            'no_nome',
-            'no_sobrenome',
-            'dt_nascimento',
-            'ic_sexo',
-            'cd_estado_civil',
-            'cd_categoria',
-            'cd_pontuacao'
-        ]);
-        $data['filter'] = $this->setFilter($filter);
+        $data[Attribute::FILTER] = $this->setFilter($filter);
         return parent::getPaginate($data);
     }
 }
